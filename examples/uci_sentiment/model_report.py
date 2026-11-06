@@ -52,4 +52,4 @@ __STATUS__
 
 if __name__=='__main__':
     if len(sys.argv)!=3:raise SystemExit('usage: python model_report.py RESULTS_JSON REPORT_HTML')
-    write_model_report(json.loads(Path(sys.argv[1]).read_text()),sys.argv[2])
+    write_model_report(json.loads(Path(sys.argv[1]).read_text(encoding='utf-8')),sys.argv[2])

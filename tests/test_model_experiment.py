@@ -40,7 +40,7 @@ class ModelExperimentTests(unittest.TestCase):
         self.assertEqual(r['accuracy_delta_95_percentile_interval'],[0.,0.])
 
     def test_vocabulary_excludes_unseen_data(self):
-        plan=json.loads(module.PLAN_PATH.read_text())
+        plan=json.loads(module.PLAN_PATH.read_text(encoding='utf-8'))
         model=module.build_model('word_unigram',plan)
         model.fit(['good useful device','bad broken device'],[1,0])
         model.predict(['unseenvalidationtoken good'])
@@ -48,16 +48,16 @@ class ModelExperimentTests(unittest.TestCase):
 
     def test_saved_plan_predictions_and_source_assignments(self):
         folder=ROOT/'examples/uci_sentiment/model_experiment/results'
-        result=json.loads((folder/'results.json').read_text())
-        lock=json.loads((folder/'selection-lock.json').read_text())
+        result=json.loads((folder/'results.json').read_text(encoding='utf-8'))
+        lock=json.loads((folder/'selection-lock.json').read_text(encoding='utf-8'))
         self.assertEqual(result['plan_sha256'],hashlib.sha256(module.PLAN_PATH.read_bytes()).hexdigest())
         self.assertEqual(lock['plan_sha256'],result['plan_sha256'])
         self.assertEqual(set(result['test']),{result['baseline'],result['selected_model']})
-        records=[json.loads(line) for line in (folder/'test-predictions.jsonl').read_text().splitlines()]
+        records=[json.loads(line) for line in (folder/'test-predictions.jsonl').read_text(encoding='utf-8').splitlines()]
         self.assertEqual(len(records),600)
         for key,field in [(result['baseline'],'baseline_prediction'),(result['selected_model'],'selected_prediction')]:
             self.assertAlmostEqual(f1_score([r['truth'] for r in records],[r[field] for r in records],labels=[0,1],average='macro',zero_division=0),result['test'][key]['macro_f1'])
-        assignments=json.loads((folder/'assignments.json').read_text())
+        assignments=json.loads((folder/'assignments.json').read_text(encoding='utf-8'))
         components={}
         for item in assignments:
             components.setdefault(item['component'],set()).add(item['split'])

@@ -45,9 +45,9 @@ def run():
         'bad_source_scan':scan_source(bad_source,path='feature_selection_bad.py'),
         'fixed_source_scan':scan_source(fixed_source,path='feature_selection_fixed.py'),
         'interpretation':plan['claim_boundary']}
-    (BASE/'impact_results.json').write_text(json.dumps(result,indent=2)+'\n')
-    (BASE/'feature_selection_bad.py').write_text(bad_source)
-    (BASE/'feature_selection_fixed.py').write_text(fixed_source)
+    (BASE/'impact_results.json').write_text(json.dumps(result,indent=2)+'\n', encoding='utf-8')
+    (BASE/'feature_selection_bad.py').write_text(bad_source, encoding='utf-8')
+    (BASE/'feature_selection_fixed.py').write_text(fixed_source, encoding='utf-8')
     print(json.dumps({k:result[k] for k in ['mean_leaky_accuracy','mean_pipeline_accuracy','mean_apparent_score_excess']},indent=2))
 
 

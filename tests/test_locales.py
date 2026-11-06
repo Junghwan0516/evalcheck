@@ -30,7 +30,7 @@ class LocaleTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             for lang in ['en','ko']:
                 path=Path(d)/f'{lang}.html';write_report(result,path,lang=lang)
-                page=path.read_text();self.assertIn(f'<html lang="{lang}">',page)
+                page=path.read_text(encoding='utf-8');self.assertIn(f'<html lang="{lang}">',page)
                 data=json.loads(re.search(r'<script id="audit-data" type="application/json">(.*?)</script>',page,re.S)[1])
                 self.assertEqual(data,result)
                 self.assertIn("raw('p',r.text)",page)
@@ -41,9 +41,9 @@ class LocaleTests(unittest.TestCase):
         result=scan_source(BAD,path='Findings.py');before=copy.deepcopy(result)
         with tempfile.TemporaryDirectory() as d:
             path=Path(d)/'ko.html';write_code_report([result],path,lang='ko')
-            page=path.read_text();self.assertIn('홀드아웃 분할 전에 전처리를 학습함',page)
+            page=path.read_text(encoding='utf-8');self.assertIn('홀드아웃 분할 전에 전처리를 학습함',page)
             self.assertIn('scaler',page.lower());self.assertIn('Findings.py',page)
-            code=Path(d)/'bad.py';code.write_text(BAD)
+            code=Path(d)/'bad.py';code.write_text(BAD, encoding='utf-8')
             out=io.StringIO()
             with contextlib.redirect_stdout(out):status=main(['scan',str(code),'--out',str(Path(d)/'out'),'--lang','ko'])
             self.assertEqual(status,1);self.assertIn('코드 검사:',out.getvalue());self.assertIn('보고서:',out.getvalue())

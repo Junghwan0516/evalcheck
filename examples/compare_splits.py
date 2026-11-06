@@ -58,7 +58,7 @@ def main():
         'mean_group_heldout_accuracy':statistics.mean(r['group_heldout_accuracy'] for r in runs),
         'python':platform.python_version(),'scikit_learn':sklearn.__version__}
     output=Path(__file__).parent/'experiment-results.json'
-    output.write_text(json.dumps(result,indent=2)+'\n')
+    output.write_text(json.dumps(result,indent=2)+'\n', encoding='utf-8')
     print(json.dumps(result,indent=2))
 
 

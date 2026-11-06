@@ -141,28 +141,28 @@ class SplitTests(unittest.TestCase):
 class FileAndCliTests(unittest.TestCase):
     def test_csv_unicode_multiline(self):
         with tempfile.TemporaryDirectory() as d:
-            p=Path(d)/'data.csv';p.write_text('\ufefftext,label\n"안녕\n세계",정답\n',encoding='utf-8')
+            p=Path(d)/'data.csv';p.write_bytes('\ufefftext,label\n"안녕\n세계",정답\n'.encode('utf-8'))
             self.assertEqual(load_records(p),[row('안녕\n세계','정답')])
 
     def test_bad_csv_headers_and_width(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'data.csv'
             for content in ['text,text\na,b\n','text,label\na,b,c\n','text,label\na\n']:
-                p.write_text(content)
+                p.write_text(content, encoding='utf-8')
                 with self.assertRaises(ValueError):load_records(p)
 
     def test_jsonl_invalid_and_nonfinite(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'data.jsonl'
             for content in ['[]','{"text": NaN}','bad']:
-                p.write_text(content)
+                p.write_text(content, encoding='utf-8')
                 with self.assertRaises(ValueError):load_records(p)
 
     def test_html_script_termination_and_no_remote_assets(self):
         with tempfile.TemporaryDirectory() as d:
             text='</script><script>alert("x")</script><img src=x onerror=alert(1)>'
             result=audit({'train':[row(text)],'test':[row(text)]})
-            p=Path(d)/'report.html';write_report(result,p);html=p.read_text()
+            p=Path(d)/'report.html';write_report(result,p);html=p.read_text(encoding='utf-8')
             self.assertNotIn(text,html)
             payload=html.split('<script id="audit-data" type="application/json">')[1].split('</script>')[0]
             self.assertEqual(json.loads(payload),result)

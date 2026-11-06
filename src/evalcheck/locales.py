@@ -281,4 +281,4 @@ def locale_script(lang='en', *, interactive=False):
     from pathlib import Path
     language(lang)
     safe=lambda obj:json.dumps(obj,ensure_ascii=False).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
-    return Path(__file__).with_name('locale-ui.js').read_text().replace('__LOCALE_CATALOG__',safe(KO)).replace('__INITIAL_LANG__',safe(lang)).replace('__INTERACTIVE__','true' if interactive else 'false')
+    return Path(__file__).with_name('locale-ui.js').read_text(encoding='utf-8').replace('__LOCALE_CATALOG__',safe(KO)).replace('__INITIAL_LANG__',safe(lang)).replace('__INTERACTIVE__','true' if interactive else 'false')

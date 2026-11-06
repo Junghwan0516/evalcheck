@@ -34,7 +34,7 @@ class ProvenanceTests(unittest.TestCase):
         context={'title':'</script><img onerror=alert(1)>','source_name':'UCI','source_url':'https://archive.ics.uci.edu/dataset/331','license':'CC BY 4.0'}
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'report.html';write_report(result,p,context=context)
-            html=p.read_text();payload=html.split('<script id="audit-data" type="application/json">')[1].split('</script>')[0]
+            html=p.read_text(encoding='utf-8');payload=html.split('<script id="audit-data" type="application/json">')[1].split('</script>')[0]
             self.assertEqual(json.loads(payload)['report_context'],context)
             self.assertNotIn(context['title'],html)
         self.assertEqual(result,before)
@@ -66,8 +66,8 @@ class PublicDataCaseTests(unittest.TestCase):
     def test_source_checksum_mismatch_refused(self):
         with tempfile.TemporaryDirectory() as d:
             base=Path(d);(base/'data').mkdir()
-            (base/'source-manifest.json').write_text(json.dumps({'files':{'sample.txt':{'sha256':'not-the-hash','bytes':4,'records':1}}}))
-            (base/'data/sample.txt').write_text('x\t0\n')
+            (base/'source-manifest.json').write_text(json.dumps({'files':{'sample.txt':{'sha256':'not-the-hash','bytes':4,'records':1}}}), encoding='utf-8')
+            (base/'data/sample.txt').write_text('x\t0\n', encoding='utf-8')
             with self.assertRaisesRegex(ValueError,'pinned manifest'):case.load_sources(base)
 
     def test_fixed_seed_preserves_all_source_ids(self):
