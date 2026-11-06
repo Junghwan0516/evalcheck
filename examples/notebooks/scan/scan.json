@@ -1,0 +1,86 @@
+{
+  "kind": "code_scan_collection",
+  "files": [
+    {
+      "schema_version": "1.0",
+      "tool_version": "0.4.0",
+      "kind": "code_scan",
+      "path": "fixed.ipynb",
+      "fingerprint": "ab3abeabdeef60db5d8ce67dd04e1a913ee9d7d2912ade757d2c7de4aa3c26bf",
+      "status": "no_findings_in_scope",
+      "findings": [],
+      "coverage": {
+        "analyzed_statements": 8,
+        "notes": [],
+        "scope": "Straight-line module/notebook source order; known sklearn/imblearn APIs. No code execution."
+      },
+      "limitations": [
+        "Static patterns require protocol review; no findings is not a leakage-free certification.",
+        "Function bodies, control flow, custom transformers/helpers and cross-file execution are not followed.",
+        "Notebook source order can differ from execution order; cells are never executed.",
+        "No temporal, target-derived-feature, semantic or foundation-model contamination checks."
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "tool_version": "0.4.0",
+      "kind": "code_scan",
+      "path": "leaky.ipynb",
+      "fingerprint": "a84f31ad484b5e8fc06edfeea2a25e53f5d40872baa29a3cbc7237f572d1054c",
+      "status": "findings",
+      "findings": [
+        {
+          "id": "C0001",
+          "rule": "EC001",
+          "severity": "warning",
+          "confidence": "direct_supported_flow",
+          "title": "Preprocessing fitted before a holdout split",
+          "path": "leaky.ipynb",
+          "cell": 3,
+          "line": 1,
+          "code": "X_train, X_test, y_train, y_test = train_test_split(Z, y, test_size=0.2)",
+          "origin": {
+            "cell": 2,
+            "line": 2,
+            "code": "Z = scaler.fit_transform(X)",
+            "api": "sklearn.preprocessing.StandardScaler"
+          },
+          "explanation": "A supported static data-flow pattern was observed. Review the intended evaluation protocol; this is not a proof of invalid model performance.",
+          "suggestion": "Split raw data first; fit preprocessing on training only and transform the held-out set.",
+          "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+        },
+        {
+          "id": "C0002",
+          "rule": "EC002",
+          "severity": "warning",
+          "confidence": "direct_supported_flow",
+          "title": "Estimator fitted on held-out records",
+          "path": "leaky.ipynb",
+          "cell": 3,
+          "line": 3,
+          "code": "model.fit(X_test, y_test)",
+          "origin": {
+            "cell": 3,
+            "line": 3,
+            "code": "model.fit(X_test, y_test)",
+            "api": null
+          },
+          "explanation": "A supported static data-flow pattern was observed. Review the intended evaluation protocol; this is not a proof of invalid model performance.",
+          "suggestion": "Keep validation/test records out of fit, fit_transform and fit_resample during evaluation.",
+          "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+        }
+      ],
+      "coverage": {
+        "analyzed_statements": 8,
+        "notes": [],
+        "scope": "Straight-line module/notebook source order; known sklearn/imblearn APIs. No code execution."
+      },
+      "limitations": [
+        "Static patterns require protocol review; no findings is not a leakage-free certification.",
+        "Function bodies, control flow, custom transformers/helpers and cross-file execution are not followed.",
+        "Notebook source order can differ from execution order; cells are never executed.",
+        "No temporal, target-derived-feature, semantic or foundation-model contamination checks."
+      ]
+    }
+  ]
+}

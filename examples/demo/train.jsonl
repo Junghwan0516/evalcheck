@@ -1,0 +1,8 @@
+{"text": "Plants convert sunlight into chemical energy through photosynthesis.", "label": "correct", "question_id": "biology-01"}
+{"text": "The electric current increases when resistance decreases at fixed voltage.", "label": "correct", "question_id": "physics-02"}
+{"text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.", "label": "correct", "question_id": "chemistry-03"}
+{"text": "An enzyme lowers the activation energy of a reaction.", "label": "correct", "question_id": "biology-04"}
+{"text": "Mass is measured in kilograms.", "label": "correct", "question_id": "physics-05"}
+{"text": "The nucleus stores most of a cell's genetic information.", "label": "correct", "question_id": "biology-06"}
+{"text": "A catalyst is completely consumed in every reaction.", "label": "incorrect", "question_id": "chemistry-07"}
+{"text": "An object at rest has zero velocity relative to the observer.", "label": "correct", "question_id": "physics-08"}

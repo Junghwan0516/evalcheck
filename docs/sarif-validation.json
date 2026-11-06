@@ -1,0 +1,11 @@
+{
+  "schema_url": "https://json.schemastore.org/sarif-2.1.0.json",
+  "schema_sha256": "c96eb2d311c37b0a38cbd18c52d79a68f778bbd2d831abed7412d9850740f785",
+  "validator": "jsonschema 4.25.1",
+  "validated": [
+    "all 40 authored cases",
+    "two-notebook example"
+  ],
+  "validation_errors": 0,
+  "github_ingestion_performed": false
+}

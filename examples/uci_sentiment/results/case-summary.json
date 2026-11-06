@@ -1,0 +1,194 @@
+{
+  "kind": "real_public_dataset_case_study",
+  "dataset": "Sentiment Labelled Sentences",
+  "rows": 3000,
+  "labels": {
+    "0": 1500,
+    "1": 1500
+  },
+  "source": {
+    "dataset": "Sentiment Labelled Sentences",
+    "creator": "Dimitrios Kotzias",
+    "year": 2015,
+    "doi": "10.24432/C57604",
+    "landing_page": "https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences",
+    "download_url": "https://archive.ics.uci.edu/static/public/331/sentiment+labelled+sentences.zip",
+    "archive_sha256": "afc26626d710899948693e1a61405dce197f57ffa719fa1130d346b4cc095343",
+    "retrieved_on": "2026-11-06",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "files": {
+      "amazon_cells_labelled.txt": {
+        "sha256": "47003fc0a0d4840b00e96e715b6189bad09e7443a3da41c4cbe12ffc79f86ae3",
+        "bytes": 58226,
+        "records": 1000
+      },
+      "imdb_labelled.txt": {
+        "sha256": "aef2e49e3da25714d61175e3a6e68eeef74a20a2f914318dc3be9947ea86512d",
+        "bytes": 85285,
+        "records": 1000
+      },
+      "yelp_labelled.txt": {
+        "sha256": "c76468b7b5c6e56a0804d728345c5f84aa2142ddb214420f61cc9cfd4c00d2ea",
+        "bytes": 61320,
+        "records": 1000
+      }
+    },
+    "changes": "Selected three original labelled text files from the source archive, without altering their bytes. Reproduction code parses records and creates explicitly documented derived splits."
+  },
+  "seed": 42,
+  "config": {
+    "text": "text",
+    "label": "label",
+    "group": null,
+    "threshold": 0.8,
+    "max_candidates": 2000000,
+    "id_column": "source_id"
+  },
+  "protocols": {
+    "source-partitions": {
+      "status": "review",
+      "summary": {
+        "rows": 3000,
+        "findings": 5,
+        "counts": {
+          "exact_overlap": 1,
+          "near_overlap": 4
+        },
+        "overlap_rows": 7,
+        "splits": {
+          "amazon_cells": {
+            "rows": 1000,
+            "overlap_rows": 2,
+            "overlap_fraction": 0.002,
+            "labels": {
+              "\"0\"": 500,
+              "\"1\"": 500
+            }
+          },
+          "imdb": {
+            "rows": 1000,
+            "overlap_rows": 2,
+            "overlap_fraction": 0.002,
+            "labels": {
+              "\"0\"": 500,
+              "\"1\"": 500
+            }
+          },
+          "yelp": {
+            "rows": 1000,
+            "overlap_rows": 3,
+            "overlap_fraction": 0.003,
+            "labels": {
+              "\"1\"": 500,
+              "\"0\"": 500
+            }
+          }
+        }
+      },
+      "coverage": {
+        "near_search_complete": true,
+        "candidates_compared": 351594,
+        "candidate_budget": 2000000,
+        "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+      },
+      "fingerprint": "bc7a1e35fd6738b2ad61b33df9214d76b4dd9391b220f8e11fe42d11536f41fc"
+    },
+    "row-random": {
+      "status": "review",
+      "summary": {
+        "rows": 3000,
+        "findings": 14,
+        "counts": {
+          "exact_overlap": 7,
+          "near_overlap": 7
+        },
+        "overlap_rows": 25,
+        "splits": {
+          "train": {
+            "rows": 2400,
+            "overlap_rows": 14,
+            "overlap_fraction": 0.005833333333333334,
+            "labels": {
+              "\"1\"": 1205,
+              "\"0\"": 1195
+            }
+          },
+          "test": {
+            "rows": 600,
+            "overlap_rows": 11,
+            "overlap_fraction": 0.018333333333333333,
+            "labels": {
+              "\"0\"": 305,
+              "\"1\"": 295
+            }
+          }
+        }
+      },
+      "coverage": {
+        "near_search_complete": true,
+        "candidates_compared": 174406,
+        "candidate_budget": 2000000,
+        "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+      },
+      "fingerprint": "c06a9eb98e3c27804ecbd33df903426b149e9a819f67dee5109c96561d96f2b2"
+    },
+    "component-proposal": {
+      "status": "no_findings",
+      "summary": {
+        "rows": 3000,
+        "findings": 0,
+        "counts": {},
+        "overlap_rows": 0,
+        "splits": {
+          "train": {
+            "rows": 2400,
+            "overlap_rows": 0,
+            "overlap_fraction": 0.0,
+            "labels": {
+              "\"1\"": 1197,
+              "\"0\"": 1203
+            }
+          },
+          "test": {
+            "rows": 600,
+            "overlap_rows": 0,
+            "overlap_fraction": 0.0,
+            "labels": {
+              "\"0\"": 297,
+              "\"1\"": 303
+            }
+          }
+        }
+      },
+      "coverage": {
+        "near_search_complete": true,
+        "candidates_compared": 176383,
+        "candidate_budget": 2000000,
+        "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+      },
+      "fingerprint": "e1d5c9e97a8b1a94292c70604403c84a4037ed4ddc5e5fdfb7c6d66a46a6efc2"
+    }
+  },
+  "proposal_policy": {
+    "seed": 42,
+    "requested_test_fraction": 0.2,
+    "actual_test_fraction": 0.2,
+    "components": 2962,
+    "largest_component": 6,
+    "include_near": true,
+    "candidates_compared": 540969,
+    "config": {
+      "text": "text",
+      "label": "label",
+      "group": null,
+      "threshold": 0.8,
+      "max_candidates": 2000000,
+      "id_column": "source_id"
+    },
+    "stratified": false,
+    "rows_deleted": 0,
+    "notice": "A proposal for a new evaluation, not a repair of a fixed benchmark. Inspect class balance and the evaluation question."
+  },
+  "interpretation": "Observed overlap evidence, not evidence of model-score inflation. No classifier was trained in this case study. No official benchmark split was modified."
+}

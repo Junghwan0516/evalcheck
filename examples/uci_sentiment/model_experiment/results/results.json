@@ -1,0 +1,205 @@
+{
+  "kind": "development_selected_model_comparison",
+  "plan_sha256": "291085c12eccc3018721e0ad31e90e217605aae63fe3b70dbe7c23c983c52755",
+  "source": {
+    "dataset": "Sentiment Labelled Sentences",
+    "creator": "Dimitrios Kotzias",
+    "year": 2015,
+    "doi": "10.24432/C57604",
+    "landing_page": "https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences",
+    "download_url": "https://archive.ics.uci.edu/static/public/331/sentiment+labelled+sentences.zip",
+    "archive_sha256": "afc26626d710899948693e1a61405dce197f57ffa719fa1130d346b4cc095343",
+    "retrieved_on": "2026-11-06",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "files": {
+      "amazon_cells_labelled.txt": {
+        "sha256": "47003fc0a0d4840b00e96e715b6189bad09e7443a3da41c4cbe12ffc79f86ae3",
+        "bytes": 58226,
+        "records": 1000
+      },
+      "imdb_labelled.txt": {
+        "sha256": "aef2e49e3da25714d61175e3a6e68eeef74a20a2f914318dc3be9947ea86512d",
+        "bytes": 85285,
+        "records": 1000
+      },
+      "yelp_labelled.txt": {
+        "sha256": "c76468b7b5c6e56a0804d728345c5f84aa2142ddb214420f61cc9cfd4c00d2ea",
+        "bytes": 61320,
+        "records": 1000
+      }
+    },
+    "changes": "Selected three original labelled text files from the source archive, without altering their bytes. Reproduction code parses records and creates explicitly documented derived splits."
+  },
+  "versions": {
+    "python": "3.12.14",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "baseline": "word_unigram",
+  "selected_model": "word_char_union",
+  "split_sizes": {
+    "train": 1800,
+    "development": 600,
+    "test": 600
+  },
+  "label_counts": {
+    "train": {
+      "1": 887,
+      "0": 913
+    },
+    "development": {
+      "1": 310,
+      "0": 290
+    },
+    "test": {
+      "0": 297,
+      "1": 303
+    }
+  },
+  "outer_policy": {
+    "seed": 42,
+    "requested_test_fraction": 0.2,
+    "actual_test_fraction": 0.2,
+    "components": 2962,
+    "largest_component": 6,
+    "include_near": true,
+    "candidates_compared": 540969,
+    "config": {
+      "text": "text",
+      "label": "label",
+      "group": null,
+      "threshold": 0.8,
+      "max_candidates": 2000000,
+      "id_column": "source_id"
+    },
+    "stratified": false,
+    "rows_deleted": 0,
+    "notice": "A proposal for a new evaluation, not a repair of a fixed benchmark. Inspect class balance and the evaluation question."
+  },
+  "inner_policy": {
+    "seed": 43,
+    "requested_test_fraction": 0.25,
+    "actual_test_fraction": 0.25,
+    "components": 2371,
+    "largest_component": 6,
+    "include_near": true,
+    "candidates_compared": 341540,
+    "config": {
+      "text": "text",
+      "label": "label",
+      "group": null,
+      "threshold": 0.8,
+      "max_candidates": 2000000,
+      "id_column": "source_id"
+    },
+    "stratified": false,
+    "rows_deleted": 0,
+    "notice": "A proposal for a new evaluation, not a repair of a fixed benchmark. Inspect class balance and the evaluation question."
+  },
+  "audit_fingerprint": "9f0b3d7adaa13dd1c20610ed195474304bacb608ecd5d7bf1f11316f4c49b755",
+  "isolation_overlap_rows": 0,
+  "development": {
+    "char_ngrams": {
+      "macro_f1": 0.8483329120358668,
+      "accuracy": 0.8483333333333334,
+      "confusion_matrix_labels_0_1": [
+        [
+          254,
+          36
+        ],
+        [
+          55,
+          255
+        ]
+      ]
+    },
+    "word_char_union": {
+      "macro_f1": 0.859873886497848,
+      "accuracy": 0.86,
+      "confusion_matrix_labels_0_1": [
+        [
+          249,
+          41
+        ],
+        [
+          43,
+          267
+        ]
+      ]
+    },
+    "word_unigram": {
+      "macro_f1": 0.8316549760400028,
+      "accuracy": 0.8316666666666667,
+      "confusion_matrix_labels_0_1": [
+        [
+          247,
+          43
+        ],
+        [
+          58,
+          252
+        ]
+      ]
+    }
+  },
+  "test": {
+    "word_unigram": {
+      "macro_f1": 0.7949310740554465,
+      "accuracy": 0.795,
+      "confusion_matrix_labels_0_1": [
+        [
+          244,
+          53
+        ],
+        [
+          70,
+          233
+        ]
+      ]
+    },
+    "word_char_union": {
+      "macro_f1": 0.8033136646998034,
+      "accuracy": 0.8033333333333333,
+      "confusion_matrix_labels_0_1": [
+        [
+          244,
+          53
+        ],
+        [
+          65,
+          238
+        ]
+      ]
+    }
+  },
+  "delta_selected_minus_baseline": {
+    "macro_f1": 0.008382590644356869,
+    "accuracy": 0.008333333333333304
+  },
+  "uncertainty": {
+    "resampling_unit": "outer-test lexical connected component",
+    "components": 591,
+    "replicates": 5000,
+    "seed": 20261106,
+    "macro_f1_delta_95_percentile_interval": [
+      -0.016418886467272596,
+      0.03204105589231693
+    ],
+    "accuracy_delta_95_percentile_interval": [
+      -0.016556977804136133,
+      0.0318271306195407
+    ],
+    "scope": "Conditional on these fitted models, this split and the development-selected candidate. Does not include training/split variability or independent dataset replication."
+  },
+  "conclusion": "interval includes zero; no clear positive difference established",
+  "limitations": [
+    "One public dataset and one split; no independent replication.",
+    "Improvement, if observed, compares feature representations and does not estimate the causal effect of EvalCheck.",
+    "The corpus was previously inspected for audit examples; test labels were not used to choose candidates, hyperparameters or a split seed in this experiment.",
+    "Grouping uses all input text for a predeclared unlabeled isolation rule; TF-IDF vocabularies and IDF are fit on training text only.",
+    "Bootstrap conditions on fitted models and selected candidate; it is not a full uncertainty estimate for retraining or deploying on a new population."
+  ],
+  "audit_tool_version": "0.2.0"
+}

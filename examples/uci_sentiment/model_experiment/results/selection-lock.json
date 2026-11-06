@@ -1,0 +1,48 @@
+{
+  "selected_model": "word_char_union",
+  "development_scores": {
+    "char_ngrams": {
+      "macro_f1": 0.8483329120358668,
+      "accuracy": 0.8483333333333334,
+      "confusion_matrix_labels_0_1": [
+        [
+          254,
+          36
+        ],
+        [
+          55,
+          255
+        ]
+      ]
+    },
+    "word_char_union": {
+      "macro_f1": 0.859873886497848,
+      "accuracy": 0.86,
+      "confusion_matrix_labels_0_1": [
+        [
+          249,
+          41
+        ],
+        [
+          43,
+          267
+        ]
+      ]
+    },
+    "word_unigram": {
+      "macro_f1": 0.8316549760400028,
+      "accuracy": 0.8316666666666667,
+      "confusion_matrix_labels_0_1": [
+        [
+          247,
+          43
+        ],
+        [
+          58,
+          252
+        ]
+      ]
+    }
+  },
+  "plan_sha256": "291085c12eccc3018721e0ad31e90e217605aae63fe3b70dbe7c23c983c52755"
+}

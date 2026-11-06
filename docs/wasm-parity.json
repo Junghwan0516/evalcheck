@@ -1,0 +1,8 @@
+{
+  "pyodide": "0.29.3",
+  "python": "3.13.2 (main, Jan 28 2026, 03:36:02) [Clang 21.0.0git (https:/github.com/llvm/llvm-project 2f05451198e2f222ec66cec489",
+  "authored_cases_parity": 40,
+  "public_data_rows": 3000,
+  "public_data_findings": 14,
+  "notebook_presets_passed": 2
+}

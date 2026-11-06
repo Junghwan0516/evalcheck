@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.1",
+  "tool_version": "0.2.0",
+  "fingerprint": "c06a9eb98e3c27804ecbd33df903426b149e9a819f67dee5109c96561d96f2b2",
+  "status": "review",
+  "config": {
+    "text": "text",
+    "label": "label",
+    "group": null,
+    "threshold": 0.8,
+    "max_candidates": 2000000,
+    "id_column": "source_id"
+  },
+  "summary": {
+    "rows": 3000,
+    "findings": 14,
+    "counts": {
+      "exact_overlap": 7,
+      "near_overlap": 7
+    },
+    "overlap_rows": 25,
+    "splits": {
+      "train": {
+        "rows": 2400,
+        "overlap_rows": 14,
+        "overlap_fraction": 0.005833333333333334,
+        "labels": {
+          "\"1\"": 1205,
+          "\"0\"": 1195
+        }
+      },
+      "test": {
+        "rows": 600,
+        "overlap_rows": 11,
+        "overlap_fraction": 0.018333333333333333,
+        "labels": {
+          "\"0\"": 305,
+          "\"1\"": 295
+        }
+      }
+    }
+  },
+  "coverage": {
+    "near_search_complete": true,
+    "candidates_compared": 174406,
+    "candidate_budget": 2000000,
+    "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+  },
+  "limitations": [
+    "No findings does not establish a leakage-free evaluation.",
+    "No semantic, temporal, feature/target, pretraining or model-selection leakage detection.",
+    "Label conflicts may be valid when identical answers have different question context.",
+    "Group overlap is meaningful only if the configured group is an isolation boundary.",
+    "Token-set similarity ignores word order, token counts and multilingual semantics."
+  ],
+  "findings": [
+    {
+      "id": "F0001",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:427",
+          "split": "train",
+          "row": 427,
+          "text": "Works great!.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:525"
+        },
+        {
+          "id": "test:5",
+          "split": "test",
+          "row": 5,
+          "text": "Works great!.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:19"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0002",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:597",
+          "split": "train",
+          "row": 597,
+          "text": "If you like a loud buzzing to override all your conversations, then this phone is for you!",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:745"
+        },
+        {
+          "id": "test:34",
+          "split": "test",
+          "row": 34,
+          "text": "If you like a loud buzzing to override all your conversations, then this phone is for you!",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:180"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0003",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:601",
+          "split": "train",
+          "row": 601,
+          "text": "Does not fit.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:749"
+        },
+        {
+          "id": "test:90",
+          "split": "test",
+          "row": 90,
+          "text": "Does not fit.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:447"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0004",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:619",
+          "split": "train",
+          "row": 619,
+          "text": "Great product.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:769"
+        },
+        {
+          "id": "test:115",
+          "split": "test",
+          "row": 115,
+          "text": "Great Product.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:569"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0005",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:889",
+          "split": "train",
+          "row": 889,
+          "text": "Very disappointing.  ",
+          "label": "0",
+          "group": null,
+          "source_id": "imdb_labelled.txt:106"
+        },
+        {
+          "id": "test:62",
+          "split": "test",
+          "row": 62,
+          "text": "Very disappointing.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:338"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0006",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:1444",
+          "split": "train",
+          "row": 1444,
+          "text": "10/10  ",
+          "label": "1",
+          "group": null,
+          "source_id": "imdb_labelled.txt:789"
+        },
+        {
+          "id": "test:223",
+          "split": "test",
+          "row": 223,
+          "text": "10/10  ",
+          "label": "1",
+          "group": null,
+          "source_id": "imdb_labelled.txt:126"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0007",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:2246",
+          "split": "train",
+          "row": 2246,
+          "text": "I love this place.",
+          "label": "1",
+          "group": null,
+          "source_id": "yelp_labelled.txt:815"
+        },
+        {
+          "id": "test:459",
+          "split": "test",
+          "row": 459,
+          "text": "I love this place.",
+          "label": "1",
+          "group": null,
+          "source_id": "yelp_labelled.txt:335"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0008",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:212",
+          "split": "train",
+          "row": 212,
+          "text": "Works great.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:263"
+        },
+        {
+          "id": "test:5",
+          "split": "test",
+          "row": 5,
+          "text": "Works great!.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:19"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 1.0
+    },
+    {
+      "id": "F0009",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:329",
+          "split": "train",
+          "row": 329,
+          "text": "Works great.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:408"
+        },
+        {
+          "id": "test:5",
+          "split": "test",
+          "row": 5,
+          "text": "Works great!.",
+          "label": "1",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:19"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 1.0
+    },
+    {
+      "id": "F0010",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:117",
+          "split": "train",
+          "row": 117,
+          "text": "What a waste of time!",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:147"
+        },
+        {
+          "id": "test:47",
+          "split": "test",
+          "row": 47,
+          "text": "What a big waste of time.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:232"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 0.833333
+    },
+    {
+      "id": "F0011",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:2101",
+          "split": "train",
+          "row": 2101,
+          "text": "Very disappointing!!!",
+          "label": "0",
+          "group": null,
+          "source_id": "yelp_labelled.txt:622"
+        },
+        {
+          "id": "test:62",
+          "split": "test",
+          "row": 62,
+          "text": "Very disappointing.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:338"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 1.0
+    },
+    {
+      "id": "F0012",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:72",
+          "split": "train",
+          "row": 72,
+          "text": "Dont waste your money...",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:95"
+        },
+        {
+          "id": "test:114",
+          "split": "test",
+          "row": 114,
+          "text": "Please dont waste your money.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:562"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 0.8
+    },
+    {
+      "id": "F0013",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:373",
+          "split": "train",
+          "row": 373,
+          "text": "Disappointed!.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:464"
+        },
+        {
+          "id": "test:198",
+          "split": "test",
+          "row": 198,
+          "text": "disappointed.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:994"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 1.0
+    },
+    {
+      "id": "F0014",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:1482",
+          "split": "train",
+          "row": 1482,
+          "text": ") Don't waste your time.  ",
+          "label": "0",
+          "group": null,
+          "source_id": "imdb_labelled.txt:838"
+        },
+        {
+          "id": "test:486",
+          "split": "test",
+          "row": 486,
+          "text": "Don't waste your time here.",
+          "label": "0",
+          "group": null,
+          "source_id": "yelp_labelled.txt:474"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 0.833333
+    }
+  ]
+}

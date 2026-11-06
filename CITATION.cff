@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If EvalCheck supports your research, cite this software and the exact version/commit used."
+title: "EvalCheck: Traceable evaluation-risk evidence for notebooks and text splits"
+type: software
+version: 0.5.0
+date-released: '2026-11-07'
+license: MIT
+repository-code: 'https://github.com/Junghwan0516/evalcheck'
+url: 'https://junghwan0516.github.io/evalcheck/'
+authors:
+  - name: EvalCheck contributors

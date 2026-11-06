@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.html text eol=lf
+# Original bytes are checksum-pinned; prevent Windows checkout conversion.
+examples/uci_sentiment/data/* -text

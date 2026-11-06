@@ -1,0 +1,508 @@
+{
+  "suite": "Authored Notebook Leakage Challenge v1",
+  "external_validation": false,
+  "cases": 40,
+  "cases_sha256": "3685152d386ae807fa77789f3ac7ee0fb016f25d65fd44ee9a290cce6ff13423",
+  "engine_sha256_at_evaluation": "d9d4f93f0c365cc816bda4ac44d51ec212e6275d964b0e491aaecd7a22213f6e",
+  "engine_unchanged_since_case_freeze": true,
+  "file_level": {
+    "tp": 20,
+    "fp": 0,
+    "tn": 16,
+    "fn": 4,
+    "precision": 1.0,
+    "recall_including_unsupported": 0.8333333333333334
+  },
+  "interpretation": "Authored challenge-suite result, not real-world precision/recall or independent validation. Unsupported risk cases remain false negatives in overall recall.",
+  "cases_detail": [
+    {
+      "id": "ref-feature-select-all",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [
+        "EC001"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-train-preprocess",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-cv-global-features",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC003"
+      ],
+      "detected_rules": [
+        "EC003"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-cv-pipeline",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-resample-all",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC004"
+      ],
+      "detected_rules": [
+        "EC004"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-resample-train",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-fit-heldout",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC002"
+      ],
+      "detected_rules": [
+        "EC002"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "ref-pipeline-heldout-predict",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "pca-before-split",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [
+        "EC001"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "impute-before-split",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [
+        "EC001"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "functional-scale",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [
+        "EC001"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "copy-carries-leak",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [
+        "EC001"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "heldout-keyword-fit",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC002"
+      ],
+      "detected_rules": [
+        "EC002"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "heldout-partial-fit",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC002"
+      ],
+      "detected_rules": [
+        "EC002"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "merged-cohort-fit",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC002"
+      ],
+      "detected_rules": [
+        "EC002"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "heldout-pipeline-fit",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC002"
+      ],
+      "detected_rules": [
+        "EC002"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "cv-keyword-vectorizer",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC003"
+      ],
+      "detected_rules": [
+        "EC003"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "cross-validate-selector",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC003"
+      ],
+      "detected_rules": [
+        "EC003"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "random-search-prefit",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC003"
+      ],
+      "detected_rules": [
+        "EC003"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "cv-resampled-features",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC003"
+      ],
+      "detected_rules": [
+        "EC003"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "resampler-alias",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC004"
+      ],
+      "detected_rules": [
+        "EC004"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "resampler-module",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC004"
+      ],
+      "detected_rules": [
+        "EC004"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "resampler-reassigned",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC004"
+      ],
+      "detected_rules": [
+        "EC004"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "resampler-instance-copy",
+      "risk_present": true,
+      "scope": "supported",
+      "expected_rules": [
+        "EC004"
+      ],
+      "detected_rules": [
+        "EC004"
+      ],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-pca-train",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-normalizer-all",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-normalizer-heldout",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-external-fitted-transform",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-reset-data",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-string-comment",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-cv-clones-estimator",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-shadowed-api",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": [
+        {
+          "kind": "scope_skipped",
+          "message": "Function/class bodies are not analyzed; source-order analysis does not follow calls.",
+          "cell": null,
+          "line": 4
+        },
+        {
+          "kind": "opaque_call",
+          "message": "Tracked data passes through an unmodeled call; its output lineage is not inferred.",
+          "cell": null,
+          "line": 7
+        }
+      ]
+    },
+    {
+      "id": "safe-raw-array",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-no-evaluation",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-heldout-predict",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "safe-unrelated-transform",
+      "risk_present": false,
+      "scope": "supported",
+      "expected_rules": [],
+      "detected_rules": [],
+      "exact_rule_match": true,
+      "coverage_notes": []
+    },
+    {
+      "id": "limit-function-body",
+      "risk_present": true,
+      "scope": "unsupported-risk",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [],
+      "exact_rule_match": false,
+      "coverage_notes": [
+        {
+          "kind": "scope_skipped",
+          "message": "Function/class bodies are not analyzed; source-order analysis does not follow calls.",
+          "cell": null,
+          "line": 4
+        }
+      ]
+    },
+    {
+      "id": "limit-branch",
+      "risk_present": true,
+      "scope": "unsupported-risk",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [],
+      "exact_rule_match": false,
+      "coverage_notes": [
+        {
+          "kind": "control_flow_skipped",
+          "message": "Control-flow block is not analyzed; tracked data/object state is reset.",
+          "cell": null,
+          "line": 4
+        }
+      ]
+    },
+    {
+      "id": "limit-opaque-helper",
+      "risk_present": true,
+      "scope": "unsupported-risk",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [],
+      "exact_rule_match": false,
+      "coverage_notes": [
+        {
+          "kind": "opaque_call",
+          "message": "Tracked data passes through an unmodeled call; its output lineage is not inferred.",
+          "cell": null,
+          "line": 5
+        }
+      ]
+    },
+    {
+      "id": "limit-opaque-feature-wrapper",
+      "risk_present": true,
+      "scope": "unsupported-risk",
+      "expected_rules": [
+        "EC001"
+      ],
+      "detected_rules": [],
+      "exact_rule_match": false,
+      "coverage_notes": [
+        {
+          "kind": "opaque_call",
+          "message": "Tracked data passes through an unmodeled call; its output lineage is not inferred.",
+          "cell": null,
+          "line": 4
+        }
+      ]
+    }
+  ]
+}

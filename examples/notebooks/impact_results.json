@@ -1,0 +1,145 @@
+{
+  "kind": "synthetic_negative_control",
+  "plan_sha256": "868f1a2c19ad35c5b0fc2166e5359c1d342d55491bbacd8ee71c930878efd44f",
+  "versions": {
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "runs": [
+    {
+      "data_seed": 0,
+      "leaky_accuracy": 0.8,
+      "pipeline_accuracy": 0.54,
+      "apparent_score_excess": 0.26,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 1,
+      "leaky_accuracy": 0.8,
+      "pipeline_accuracy": 0.53,
+      "apparent_score_excess": 0.27,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 2,
+      "leaky_accuracy": 0.77,
+      "pipeline_accuracy": 0.49,
+      "apparent_score_excess": 0.28,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 3,
+      "leaky_accuracy": 0.84,
+      "pipeline_accuracy": 0.45,
+      "apparent_score_excess": 0.38999999999999996,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 4,
+      "leaky_accuracy": 0.77,
+      "pipeline_accuracy": 0.48,
+      "apparent_score_excess": 0.29000000000000004,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 5,
+      "leaky_accuracy": 0.76,
+      "pipeline_accuracy": 0.51,
+      "apparent_score_excess": 0.25,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 6,
+      "leaky_accuracy": 0.82,
+      "pipeline_accuracy": 0.54,
+      "apparent_score_excess": 0.2799999999999999,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 7,
+      "leaky_accuracy": 0.76,
+      "pipeline_accuracy": 0.53,
+      "apparent_score_excess": 0.22999999999999998,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 8,
+      "leaky_accuracy": 0.79,
+      "pipeline_accuracy": 0.56,
+      "apparent_score_excess": 0.22999999999999998,
+      "test_rows": 100
+    },
+    {
+      "data_seed": 9,
+      "leaky_accuracy": 0.84,
+      "pipeline_accuracy": 0.53,
+      "apparent_score_excess": 0.30999999999999994,
+      "test_rows": 100
+    }
+  ],
+  "mean_leaky_accuracy": 0.795,
+  "mean_pipeline_accuracy": 0.5160000000000001,
+  "mean_apparent_score_excess": 0.279,
+  "bad_source_scan": {
+    "schema_version": "1.0",
+    "tool_version": "0.3.0",
+    "kind": "code_scan",
+    "path": "feature_selection_bad.py",
+    "fingerprint": "9b4f98c3697e71c7531c640929e40cb50a44a371040db87cdeb5c530ae56c1a4",
+    "status": "findings",
+    "findings": [
+      {
+        "id": "C0001",
+        "rule": "EC001",
+        "severity": "warning",
+        "confidence": "direct_supported_flow",
+        "title": "Preprocessing fitted before a holdout split",
+        "path": "feature_selection_bad.py",
+        "cell": null,
+        "line": 4,
+        "code": "a,b,c,d=train_test_split(Z,y,test_size=.25,random_state=7)",
+        "origin": {
+          "cell": null,
+          "line": 3,
+          "code": "Z=SelectKBest(f_classif,k=50).fit_transform(X,y)",
+          "api": "sklearn.feature_selection.SelectKBest"
+        },
+        "explanation": "A supported static data-flow pattern was observed. Review the intended evaluation protocol; this is not a proof of invalid model performance.",
+        "suggestion": "Split raw data first; fit preprocessing on training only and transform the held-out set.",
+        "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+      }
+    ],
+    "coverage": {
+      "analyzed_statements": 4,
+      "notes": [],
+      "scope": "Straight-line module/notebook source order; known sklearn/imblearn APIs. No code execution."
+    },
+    "limitations": [
+      "Static patterns require protocol review; no findings is not a leakage-free certification.",
+      "Function bodies, control flow, custom transformers/helpers and cross-file execution are not followed.",
+      "Notebook source order can differ from execution order; cells are never executed.",
+      "No temporal, target-derived-feature, semantic or foundation-model contamination checks."
+    ]
+  },
+  "fixed_source_scan": {
+    "schema_version": "1.0",
+    "tool_version": "0.3.0",
+    "kind": "code_scan",
+    "path": "feature_selection_fixed.py",
+    "fingerprint": "58958b5e81972166297dd4f9976d7e4cef2099ec8c5b65f633cec68989f80bb9",
+    "status": "no_findings_in_scope",
+    "findings": [],
+    "coverage": {
+      "analyzed_statements": 8,
+      "notes": [],
+      "scope": "Straight-line module/notebook source order; known sklearn/imblearn APIs. No code execution."
+    },
+    "limitations": [
+      "Static patterns require protocol review; no findings is not a leakage-free certification.",
+      "Function bodies, control flow, custom transformers/helpers and cross-file execution are not followed.",
+      "Notebook source order can differ from execution order; cells are never executed.",
+      "No temporal, target-derived-feature, semantic or foundation-model contamination checks."
+    ]
+  },
+  "interpretation": "Shows that a supported code pattern can produce inflated evaluation scores on deliberately unlearnable noise. Does not quantify prevalence, real-world impact or model-quality improvement."
+}

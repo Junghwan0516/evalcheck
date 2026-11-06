@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evalcheck-local"
+version = "0.5.0"
+description = "Trace evaluation risks in notebook code and data splits, locally."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "EvalCheck contributors"}]
+keywords = ["machine-learning", "data-leakage", "evaluation", "nlp", "data-quality", "jupyter", "static-analysis", "sarif"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Junghwan0516/evalcheck"
+Documentation = "https://github.com/Junghwan0516/evalcheck#readme"
+Repository = "https://github.com/Junghwan0516/evalcheck"
+Issues = "https://github.com/Junghwan0516/evalcheck/issues"
+Demo = "https://junghwan0516.github.io/evalcheck/"
+
+[project.optional-dependencies]
+experiment = ["scikit-learn>=1.3,<2"]
+
+[project.scripts]
+evalcheck = "evalcheck.cli:main"
+evalcheck-precommit = "evalcheck.precommit:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+evalcheck = ["*.html", "*.js"]

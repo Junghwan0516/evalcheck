@@ -1,0 +1,23 @@
+{
+  "plan_version": "1",
+  "scope": "Local analysis plan written before fitting any model in this experiment; not an externally preregistered study.",
+  "dataset": "All 3000 checksum-pinned UCI Sentiment Labelled Sentences records in source-manifest order.",
+  "outer_split": {"method": "EvalCheck connected components", "seed": 42, "test_fraction": 0.2},
+  "inner_split": {"method": "EvalCheck connected components on outer training pool", "seed": 43, "development_fraction_of_pool": 0.25},
+  "isolation": {"threshold": 0.8, "max_candidates": 2000000},
+  "baseline": "word_unigram",
+  "models": {
+    "word_unigram": {"representation": "word TF-IDF", "ngram_range": [1, 1], "sublinear_tf": false, "C": 1.0},
+    "char_ngrams": {"representation": "char_wb TF-IDF", "ngram_range": [3, 5], "sublinear_tf": true, "C": 2.0},
+    "word_char_union": {"representation": "unweighted feature union of word and char_wb TF-IDF", "word_ngram_range": [1, 2], "char_ngram_range": [3, 5], "sublinear_tf": true, "C": 2.0}
+  },
+  "classifier": {"name": "LogisticRegression", "solver": "liblinear", "penalty": "L2 default", "max_iter": 2000, "random_state": 42, "decision_rule": "default predict threshold"},
+  "feature_defaults": {"lowercase": true, "min_df": 1, "stop_words": null, "normalization": "L2", "fit_scope": "training only"},
+  "selection": "Highest development macro-F1 among all three models, including baseline. Ties: lexicographically smallest model name. No test predictions for unselected non-baseline candidates.",
+  "final_fit": "Keep models fitted on training only; no refit on development. Compare selected model against baseline on identical test rows.",
+  "primary_metric": "macro-F1 with explicit labels [0,1] and zero_division=0",
+  "secondary_metric": "accuracy",
+  "uncertainty": {"method": "paired percentile bootstrap over outer test connected components", "replicates": 5000, "seed": 20261106, "interval": 0.95},
+  "claim_boundary": "A model representation comparison under an audited split. This does not estimate EvalCheck's causal effect on model accuracy. No claim of general improvement across datasets or split seeds.",
+  "stop_rule": "Report the result even if it shows no improvement, a negative delta, or an interval including zero. Do not revise candidates using final test results."
+}

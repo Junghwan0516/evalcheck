@@ -1,0 +1,15 @@
+{
+  "scope": "Synthetic negative-control experiment, locally specified before running; not a real-world effect-size study.",
+  "data_seeds": [0,1,2,3,4,5,6,7,8,9],
+  "samples": 400,
+  "features": 5000,
+  "features_selected": 50,
+  "test_fraction": 0.25,
+  "split_seed": 7,
+  "labels": "Independent random binary labels; features are independent standard-normal noise.",
+  "classifier": "LogisticRegression(solver='liblinear', C=1.0, max_iter=2000, random_state=7)",
+  "bad": "SelectKBest(f_classif, k=50).fit_transform on all X and y before train_test_split.",
+  "fixed": "Same raw train/test row assignments; SelectKBest inside a Pipeline fitted on training only.",
+  "metric": "Test accuracy; report every data seed, mean and paired differences.",
+  "claim_boundary": "Shows that a supported code pattern can produce inflated evaluation scores on deliberately unlearnable noise. Does not quantify prevalence, real-world impact or model-quality improvement."
+}

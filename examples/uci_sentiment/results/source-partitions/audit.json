@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.1",
+  "tool_version": "0.2.0",
+  "fingerprint": "bc7a1e35fd6738b2ad61b33df9214d76b4dd9391b220f8e11fe42d11536f41fc",
+  "status": "review",
+  "config": {
+    "text": "text",
+    "label": "label",
+    "group": null,
+    "threshold": 0.8,
+    "max_candidates": 2000000,
+    "id_column": "source_id"
+  },
+  "summary": {
+    "rows": 3000,
+    "findings": 5,
+    "counts": {
+      "exact_overlap": 1,
+      "near_overlap": 4
+    },
+    "overlap_rows": 7,
+    "splits": {
+      "amazon_cells": {
+        "rows": 1000,
+        "overlap_rows": 2,
+        "overlap_fraction": 0.002,
+        "labels": {
+          "\"0\"": 500,
+          "\"1\"": 500
+        }
+      },
+      "imdb": {
+        "rows": 1000,
+        "overlap_rows": 2,
+        "overlap_fraction": 0.002,
+        "labels": {
+          "\"0\"": 500,
+          "\"1\"": 500
+        }
+      },
+      "yelp": {
+        "rows": 1000,
+        "overlap_rows": 3,
+        "overlap_fraction": 0.003,
+        "labels": {
+          "\"1\"": 500,
+          "\"0\"": 500
+        }
+      }
+    }
+  },
+  "coverage": {
+    "near_search_complete": true,
+    "candidates_compared": 351594,
+    "candidate_budget": 2000000,
+    "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+  },
+  "limitations": [
+    "No findings does not establish a leakage-free evaluation.",
+    "No semantic, temporal, feature/target, pretraining or model-selection leakage detection.",
+    "Label conflicts may be valid when identical answers have different question context.",
+    "Group overlap is meaningful only if the configured group is an isolation boundary.",
+    "Token-set similarity ignores word order, token counts and multilingual semantics."
+  ],
+  "findings": [
+    {
+      "id": "F0001",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "amazon_cells:338",
+          "split": "amazon_cells",
+          "row": 338,
+          "text": "Very disappointing.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:338"
+        },
+        {
+          "id": "imdb:106",
+          "split": "imdb",
+          "row": 106,
+          "text": "Very disappointing.  ",
+          "label": "0",
+          "group": null,
+          "source_id": "imdb_labelled.txt:106"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0002",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "amazon_cells:405",
+          "split": "amazon_cells",
+          "row": 405,
+          "text": "don't waste your money and time.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:405"
+        },
+        {
+          "id": "yelp:241",
+          "split": "yelp",
+          "row": 241,
+          "text": "Horrible - don't waste your time and money.",
+          "label": "0",
+          "group": null,
+          "source_id": "yelp_labelled.txt:241"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 0.875
+    },
+    {
+      "id": "F0003",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "imdb:838",
+          "split": "imdb",
+          "row": 838,
+          "text": ") Don't waste your time.  ",
+          "label": "0",
+          "group": null,
+          "source_id": "imdb_labelled.txt:838"
+        },
+        {
+          "id": "yelp:474",
+          "split": "yelp",
+          "row": 474,
+          "text": "Don't waste your time here.",
+          "label": "0",
+          "group": null,
+          "source_id": "yelp_labelled.txt:474"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 0.833333
+    },
+    {
+      "id": "F0004",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "amazon_cells:338",
+          "split": "amazon_cells",
+          "row": 338,
+          "text": "Very disappointing.",
+          "label": "0",
+          "group": null,
+          "source_id": "amazon_cells_labelled.txt:338"
+        },
+        {
+          "id": "yelp:622",
+          "split": "yelp",
+          "row": 622,
+          "text": "Very disappointing!!!",
+          "label": "0",
+          "group": null,
+          "source_id": "yelp_labelled.txt:622"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 1.0
+    },
+    {
+      "id": "F0005",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "imdb:106",
+          "split": "imdb",
+          "row": 106,
+          "text": "Very disappointing.  ",
+          "label": "0",
+          "group": null,
+          "source_id": "imdb_labelled.txt:106"
+        },
+        {
+          "id": "yelp:622",
+          "split": "yelp",
+          "row": 622,
+          "text": "Very disappointing!!!",
+          "label": "0",
+          "group": null,
+          "source_id": "yelp_labelled.txt:622"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 1.0
+    }
+  ]
+}

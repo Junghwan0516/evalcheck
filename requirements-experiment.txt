@@ -1,0 +1,5 @@
+# Recorded model-experiment environment: Python 3.12.
+# Optional only; the EvalCheck core has no runtime dependencies.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0

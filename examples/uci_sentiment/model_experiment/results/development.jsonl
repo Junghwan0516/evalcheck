@@ -1,0 +1,600 @@
+{"text": "Good case, Excellent value.", "label": "1", "source_id": "amazon_cells_labelled.txt:2", "domain": "amazon_cells"}
+{"text": "Needless to say, I wasted my money.", "label": "0", "source_id": "amazon_cells_labelled.txt:9", "domain": "amazon_cells"}
+{"text": "And the sound quality is great.", "label": "1", "source_id": "amazon_cells_labelled.txt:11", "domain": "amazon_cells"}
+{"text": "Very good quality though", "label": "1", "source_id": "amazon_cells_labelled.txt:14", "domain": "amazon_cells"}
+{"text": "I advise EVERYONE DO NOT BE FOOLED!", "label": "0", "source_id": "amazon_cells_labelled.txt:17", "domain": "amazon_cells"}
+{"text": "So Far So Good!.", "label": "1", "source_id": "amazon_cells_labelled.txt:18", "domain": "amazon_cells"}
+{"text": "I have yet to run this new battery below two bars and that's three days without charging.", "label": "1", "source_id": "amazon_cells_labelled.txt:24", "domain": "amazon_cells"}
+{"text": "I bought it for my mother and she had a problem with the battery.", "label": "0", "source_id": "amazon_cells_labelled.txt:25", "domain": "amazon_cells"}
+{"text": "This product is ideal for people like me whose ears are very sensitive.", "label": "1", "source_id": "amazon_cells_labelled.txt:32", "domain": "amazon_cells"}
+{"text": "Poor Talk Time Performance.", "label": "0", "source_id": "amazon_cells_labelled.txt:38", "domain": "amazon_cells"}
+{"text": "I was not impressed by this product.", "label": "0", "source_id": "amazon_cells_labelled.txt:42", "domain": "amazon_cells"}
+{"text": "I only hear garbage for audio.", "label": "0", "source_id": "amazon_cells_labelled.txt:44", "domain": "amazon_cells"}
+{"text": "It feels more comfortable than most headsets because I wear glasses and that gets in the way sometimes.", "label": "1", "source_id": "amazon_cells_labelled.txt:68", "domain": "amazon_cells"}
+{"text": "Nice docking station for home or work.", "label": "1", "source_id": "amazon_cells_labelled.txt:74", "domain": "amazon_cells"}
+{"text": "I love this phone , It is very handy and has a lot of features .", "label": "1", "source_id": "amazon_cells_labelled.txt:79", "domain": "amazon_cells"}
+{"text": "The ear buds only play music in one ear.", "label": "0", "source_id": "amazon_cells_labelled.txt:94", "domain": "amazon_cells"}
+{"text": "Will order from them again!", "label": "1", "source_id": "amazon_cells_labelled.txt:96", "domain": "amazon_cells"}
+{"text": "If you plan to use this in a car forget about it.", "label": "0", "source_id": "amazon_cells_labelled.txt:97", "domain": "amazon_cells"}
+{"text": "I found this product to be waaay too big.", "label": "0", "source_id": "amazon_cells_labelled.txt:98", "domain": "amazon_cells"}
+{"text": "Pros:-Good camera - very nice pictures , also has cool styles like black and white, and more.", "label": "1", "source_id": "amazon_cells_labelled.txt:106", "domain": "amazon_cells"}
+{"text": "That's a huge design flaw (unless I'm not using it correctly, which I don't think is the case).", "label": "0", "source_id": "amazon_cells_labelled.txt:107", "domain": "amazon_cells"}
+{"text": "I purcashed this for the car charger and it does not work.", "label": "0", "source_id": "amazon_cells_labelled.txt:110", "domain": "amazon_cells"}
+{"text": "its a little geeky but i think thats its sex on toast and it rocks and oozes sex right down to its battery embedded sleek stylish leather case.", "label": "1", "source_id": "amazon_cells_labelled.txt:113", "domain": "amazon_cells"}
+{"text": "Great product, fast shipping!.", "label": "1", "source_id": "amazon_cells_labelled.txt:114", "domain": "amazon_cells"}
+{"text": "The keyboard is a nice compromise between a full QWERTY and the basic cell phone number keypad.", "label": "1", "source_id": "amazon_cells_labelled.txt:116", "domain": "amazon_cells"}
+{"text": "Gets the job done.", "label": "1", "source_id": "amazon_cells_labelled.txt:125", "domain": "amazon_cells"}
+{"text": "The BT headset was such a disapoinment.", "label": "0", "source_id": "amazon_cells_labelled.txt:130", "domain": "amazon_cells"}
+{"text": "Headset works great & was packaged nicely to avoid any damage.", "label": "1", "source_id": "amazon_cells_labelled.txt:133", "domain": "amazon_cells"}
+{"text": "What a waste.", "label": "0", "source_id": "amazon_cells_labelled.txt:141", "domain": "amazon_cells"}
+{"text": "The phone takes FOREVER to charge like 2 to 5 hours literally.", "label": "0", "source_id": "amazon_cells_labelled.txt:145", "domain": "amazon_cells"}
+{"text": "Its reception is very very poor.", "label": "0", "source_id": "amazon_cells_labelled.txt:148", "domain": "amazon_cells"}
+{"text": "This phone is very fast with sending any kind of messages and web browsing is significantly faster than previous phones i have used.", "label": "1", "source_id": "amazon_cells_labelled.txt:156", "domain": "amazon_cells"}
+{"text": "All I can do is whine on the Internet, so here it goes.The more I use the thing the less I like it.", "label": "0", "source_id": "amazon_cells_labelled.txt:161", "domain": "amazon_cells"}
+{"text": "Works like a charm; it work the same as the one I got with the phone.", "label": "1", "source_id": "amazon_cells_labelled.txt:164", "domain": "amazon_cells"}
+{"text": "I still maintain that monkeys shouldn't make headphones, we just obviously don't share enough DNA to copy the design over to humans.", "label": "0", "source_id": "amazon_cells_labelled.txt:165", "domain": "amazon_cells"}
+{"text": "doesn't last long.", "label": "0", "source_id": "amazon_cells_labelled.txt:169", "domain": "amazon_cells"}
+{"text": "One thing I hate is the mode set button at the side.", "label": "0", "source_id": "amazon_cells_labelled.txt:170", "domain": "amazon_cells"}
+{"text": "Thank you for wasting my money.", "label": "0", "source_id": "amazon_cells_labelled.txt:172", "domain": "amazon_cells"}
+{"text": "Superb Phone on a Great Network.", "label": "1", "source_id": "amazon_cells_labelled.txt:176", "domain": "amazon_cells"}
+{"text": "I connected my wife's bluetooth,(Motorola HS850) to my phone and it worked like a charm whether the phone was in my pocket or the case.", "label": "1", "source_id": "amazon_cells_labelled.txt:177", "domain": "amazon_cells"}
+{"text": "Incredible!.", "label": "1", "source_id": "amazon_cells_labelled.txt:186", "domain": "amazon_cells"}
+{"text": "The replacement died in a few weeks.", "label": "0", "source_id": "amazon_cells_labelled.txt:191", "domain": "amazon_cells"}
+{"text": "Lately they have been extremely nice and helpful on the phone.", "label": "1", "source_id": "amazon_cells_labelled.txt:193", "domain": "amazon_cells"}
+{"text": "I have had problems wit hit dropping signal and more.", "label": "0", "source_id": "amazon_cells_labelled.txt:194", "domain": "amazon_cells"}
+{"text": "You'll love how thin it is.", "label": "1", "source_id": "amazon_cells_labelled.txt:197", "domain": "amazon_cells"}
+{"text": "The color is even prettier than I thought it would be, and the graphics are incredibly sharp.", "label": "1", "source_id": "amazon_cells_labelled.txt:201", "domain": "amazon_cells"}
+{"text": "There's a horrible tick sound in the background on all my calls that I have never experienced before.", "label": "0", "source_id": "amazon_cells_labelled.txt:225", "domain": "amazon_cells"}
+{"text": "No additional ear gels provided, and no instructions whatsoever.", "label": "0", "source_id": "amazon_cells_labelled.txt:244", "domain": "amazon_cells"}
+{"text": "Nice headphones for the price and they work great!", "label": "1", "source_id": "amazon_cells_labelled.txt:248", "domain": "amazon_cells"}
+{"text": "It is very comfortable to wear as well, which is probably the most important aspect about using a case.", "label": "1", "source_id": "amazon_cells_labelled.txt:250", "domain": "amazon_cells"}
+{"text": "It's fits like a glove and is strong, secure, and durable.", "label": "1", "source_id": "amazon_cells_labelled.txt:251", "domain": "amazon_cells"}
+{"text": "Excellent hands free tool.", "label": "1", "source_id": "amazon_cells_labelled.txt:259", "domain": "amazon_cells"}
+{"text": "Good product - incredible value.", "label": "1", "source_id": "amazon_cells_labelled.txt:261", "domain": "amazon_cells"}
+{"text": "Avoid this one if you can.", "label": "0", "source_id": "amazon_cells_labelled.txt:275", "domain": "amazon_cells"}
+{"text": "Reversible plug works great.", "label": "1", "source_id": "amazon_cells_labelled.txt:276", "domain": "amazon_cells"}
+{"text": "Good product, good seller.", "label": "1", "source_id": "amazon_cells_labelled.txt:281", "domain": "amazon_cells"}
+{"text": "I am very impressed with this headset from Plantronics.", "label": "1", "source_id": "amazon_cells_labelled.txt:284", "domain": "amazon_cells"}
+{"text": "Battery life still not long enough in Motorola Razor V3i.", "label": "0", "source_id": "amazon_cells_labelled.txt:300", "domain": "amazon_cells"}
+{"text": "Has been working great.", "label": "1", "source_id": "amazon_cells_labelled.txt:307", "domain": "amazon_cells"}
+{"text": "As many people complained, I found this headset's microphone was very weak.", "label": "0", "source_id": "amazon_cells_labelled.txt:308", "domain": "amazon_cells"}
+{"text": "This is a good battery, and it got here really fast.", "label": "1", "source_id": "amazon_cells_labelled.txt:311", "domain": "amazon_cells"}
+{"text": "The battery is unreliable as well as the service use antena.", "label": "0", "source_id": "amazon_cells_labelled.txt:315", "domain": "amazon_cells"}
+{"text": "This is definitely a must have if your state does not allow cell phone usage while driving.", "label": "1", "source_id": "amazon_cells_labelled.txt:318", "domain": "amazon_cells"}
+{"text": "The Ngage is still lacking in earbuds.", "label": "0", "source_id": "amazon_cells_labelled.txt:323", "domain": "amazon_cells"}
+{"text": "I was able to do voice dialing in the car with no problem.", "label": "1", "source_id": "amazon_cells_labelled.txt:324", "domain": "amazon_cells"}
+{"text": "VERY comfortable.", "label": "1", "source_id": "amazon_cells_labelled.txt:331", "domain": "amazon_cells"}
+{"text": "1. long lasting battery (you don't have to recharge it as frequentyly as some of the flip phones)2.", "label": "0", "source_id": "amazon_cells_labelled.txt:336", "domain": "amazon_cells"}
+{"text": "I've dropped my phone more times than I can say, even on concrete and my phone is still great (knock on wood!).", "label": "1", "source_id": "amazon_cells_labelled.txt:346", "domain": "amazon_cells"}
+{"text": "Good audio quality.", "label": "1", "source_id": "amazon_cells_labelled.txt:348", "domain": "amazon_cells"}
+{"text": "Works like a charm.. Works as advertised.", "label": "1", "source_id": "amazon_cells_labelled.txt:352", "domain": "amazon_cells"}
+{"text": "Excellent starter wireless headset.", "label": "0", "source_id": "amazon_cells_labelled.txt:355", "domain": "amazon_cells"}
+{"text": "Nice design and quality.", "label": "1", "source_id": "amazon_cells_labelled.txt:361", "domain": "amazon_cells"}
+{"text": "Protects the phone on all sides.", "label": "1", "source_id": "amazon_cells_labelled.txt:377", "domain": "amazon_cells"}
+{"text": "Clear Skype Calls, Long Battery Life, Long Range.", "label": "1", "source_id": "amazon_cells_labelled.txt:379", "domain": "amazon_cells"}
+{"text": "Soyo technology sucks.", "label": "0", "source_id": "amazon_cells_labelled.txt:380", "domain": "amazon_cells"}
+{"text": "It worked very well.", "label": "1", "source_id": "amazon_cells_labelled.txt:389", "domain": "amazon_cells"}
+{"text": "The company shipped my product very promptly and it works well.", "label": "1", "source_id": "amazon_cells_labelled.txt:390", "domain": "amazon_cells"}
+{"text": "Exactly what I wanted.", "label": "1", "source_id": "amazon_cells_labelled.txt:391", "domain": "amazon_cells"}
+{"text": "This is a great deal.", "label": "1", "source_id": "amazon_cells_labelled.txt:393", "domain": "amazon_cells"}
+{"text": "Sounds good reasonably priced and effective, Its that simple !", "label": "1", "source_id": "amazon_cells_labelled.txt:399", "domain": "amazon_cells"}
+{"text": "Plantronics Bluetooth Excelent Buy.", "label": "1", "source_id": "amazon_cells_labelled.txt:409", "domain": "amazon_cells"}
+{"text": "I came over from Verizon because cingulair has nicer cell phones.... the first thing I noticed was the really bad service.", "label": "0", "source_id": "amazon_cells_labelled.txt:410", "domain": "amazon_cells"}
+{"text": "I'll be looking for a new earpiece.", "label": "0", "source_id": "amazon_cells_labelled.txt:411", "domain": "amazon_cells"}
+{"text": "An Awesome New Look For Fall 2000!.", "label": "1", "source_id": "amazon_cells_labelled.txt:417", "domain": "amazon_cells"}
+{"text": "This is the first phone I've had that has been so cheaply made.", "label": "0", "source_id": "amazon_cells_labelled.txt:418", "domain": "amazon_cells"}
+{"text": "Att is not clear, sound is very distorted and you have to yell when you talk.", "label": "0", "source_id": "amazon_cells_labelled.txt:419", "domain": "amazon_cells"}
+{"text": "Overall, I am psyched to have a phone which has all my appointments and contacts in and gets great reception.", "label": "1", "source_id": "amazon_cells_labelled.txt:426", "domain": "amazon_cells"}
+{"text": "every thing on phone work perfectly, she like it.", "label": "1", "source_id": "amazon_cells_labelled.txt:427", "domain": "amazon_cells"}
+{"text": "Another note about this phone's appearance is that it really looks rather bland, especially in the all black model.", "label": "0", "source_id": "amazon_cells_labelled.txt:428", "domain": "amazon_cells"}
+{"text": "I highly recommend this modest priced cellular phone.", "label": "1", "source_id": "amazon_cells_labelled.txt:434", "domain": "amazon_cells"}
+{"text": "I might have gotten a defect, but I would not risk buying it again because of the built quality alone.", "label": "0", "source_id": "amazon_cells_labelled.txt:442", "domain": "amazon_cells"}
+{"text": "I searched the Internet, and found this one to be the best value.", "label": "1", "source_id": "amazon_cells_labelled.txt:446", "domain": "amazon_cells"}
+{"text": "I've also had problems with the phone reading the memory card in which I always turn it on and then off again.", "label": "0", "source_id": "amazon_cells_labelled.txt:455", "domain": "amazon_cells"}
+{"text": "Cant get the software to work with my computer.", "label": "0", "source_id": "amazon_cells_labelled.txt:463", "domain": "amazon_cells"}
+{"text": "The battery works great!", "label": "1", "source_id": "amazon_cells_labelled.txt:466", "domain": "amazon_cells"}
+{"text": "No buyers remorse on this one!.", "label": "0", "source_id": "amazon_cells_labelled.txt:467", "domain": "amazon_cells"}
+{"text": "I have had TMobile service for 2 or 3 years now, and I am pretty happy with it.", "label": "1", "source_id": "amazon_cells_labelled.txt:471", "domain": "amazon_cells"}
+{"text": "Disappointment.. I hate anything that goes in my ear.", "label": "0", "source_id": "amazon_cells_labelled.txt:473", "domain": "amazon_cells"}
+{"text": "The volume switch rocketed out of the unit to a destination unknown.", "label": "0", "source_id": "amazon_cells_labelled.txt:478", "domain": "amazon_cells"}
+{"text": "It holds a charge for a long time, is reasonably comfortable under long-wearing conditions and the quality of sound is tremendous.", "label": "1", "source_id": "amazon_cells_labelled.txt:479", "domain": "amazon_cells"}
+{"text": "After charging overnight, these batteries work great.", "label": "1", "source_id": "amazon_cells_labelled.txt:483", "domain": "amazon_cells"}
+{"text": "Save your money.... I've had this item for 11 months now.", "label": "0", "source_id": "amazon_cells_labelled.txt:498", "domain": "amazon_cells"}
+{"text": "I wear glasses and it fits fine with them.", "label": "1", "source_id": "amazon_cells_labelled.txt:505", "domain": "amazon_cells"}
+{"text": "I got the aluminum case for my new Palm VX and it worked really well--it has protected my handheld perfectly so far.", "label": "1", "source_id": "amazon_cells_labelled.txt:514", "domain": "amazon_cells"}
+{"text": "Mobile Phone Tools are a must have.", "label": "1", "source_id": "amazon_cells_labelled.txt:516", "domain": "amazon_cells"}
+{"text": "I am very impressed with the job that Motorola did on the sturdiness of this phone.", "label": "1", "source_id": "amazon_cells_labelled.txt:517", "domain": "amazon_cells"}
+{"text": "I am not impressed with this and i would not recommend this item to anyone.", "label": "0", "source_id": "amazon_cells_labelled.txt:520", "domain": "amazon_cells"}
+{"text": "I had to go to a store and bought a new NOKIA phone which is working great.", "label": "1", "source_id": "amazon_cells_labelled.txt:524", "domain": "amazon_cells"}
+{"text": "REALLY UGLY.", "label": "0", "source_id": "amazon_cells_labelled.txt:526", "domain": "amazon_cells"}
+{"text": "All it took was one drop from about 6 inches above the kitchen counter and it was cracked.I am not impressed and I am not laughing.", "label": "0", "source_id": "amazon_cells_labelled.txt:536", "domain": "amazon_cells"}
+{"text": "No shifting, no bubbling, no peeling, not even a scratch, NOTHING!I couldn't be more happier with my new one for the Droid.", "label": "1", "source_id": "amazon_cells_labelled.txt:546", "domain": "amazon_cells"}
+{"text": "It's A PIECE OF CRAP!", "label": "0", "source_id": "amazon_cells_labelled.txt:570", "domain": "amazon_cells"}
+{"text": "Worst ever.", "label": "0", "source_id": "amazon_cells_labelled.txt:573", "domain": "amazon_cells"}
+{"text": "I've had no trouble accessing the Internet, downloading ringtones or performing any of the functions.", "label": "1", "source_id": "amazon_cells_labelled.txt:575", "domain": "amazon_cells"}
+{"text": "I can barely ever hear on it and am constantly saying \"what?\"", "label": "0", "source_id": "amazon_cells_labelled.txt:576", "domain": "amazon_cells"}
+{"text": "Voice Quality, Signal Strength, Dropped Calls.", "label": "0", "source_id": "amazon_cells_labelled.txt:583", "domain": "amazon_cells"}
+{"text": "Better than expected.", "label": "1", "source_id": "amazon_cells_labelled.txt:585", "domain": "amazon_cells"}
+{"text": "It feels poorly constructed, the menus are difficult to navigate, and the buttons are so recessed that it is difficult to push them.", "label": "0", "source_id": "amazon_cells_labelled.txt:586", "domain": "amazon_cells"}
+{"text": "Sprint charges for this service.", "label": "0", "source_id": "amazon_cells_labelled.txt:608", "domain": "amazon_cells"}
+{"text": "However I needed some better instructions.", "label": "0", "source_id": "amazon_cells_labelled.txt:618", "domain": "amazon_cells"}
+{"text": "DO NOT BUY DO NOT BUYIT SUCKS", "label": "0", "source_id": "amazon_cells_labelled.txt:622", "domain": "amazon_cells"}
+{"text": "Very Dissapointing Performance.", "label": "0", "source_id": "amazon_cells_labelled.txt:626", "domain": "amazon_cells"}
+{"text": "I did not have any problem with this item and would order it again if needed.", "label": "1", "source_id": "amazon_cells_labelled.txt:633", "domain": "amazon_cells"}
+{"text": "You get what you pay for I guess.", "label": "0", "source_id": "amazon_cells_labelled.txt:634", "domain": "amazon_cells"}
+{"text": "im surprised this is a good quality car charger and there's not much reviews about it.", "label": "1", "source_id": "amazon_cells_labelled.txt:636", "domain": "amazon_cells"}
+{"text": "I used bitpim (a free program you can find on the internet)to transfer data to the phone.The price of the cable was excellent.", "label": "1", "source_id": "amazon_cells_labelled.txt:639", "domain": "amazon_cells"}
+{"text": "Performed awful -- muffled, tinny incoming sound and severe echo for those on the other end of the call.", "label": "0", "source_id": "amazon_cells_labelled.txt:641", "domain": "amazon_cells"}
+{"text": "Very wind-resistant.", "label": "1", "source_id": "amazon_cells_labelled.txt:642", "domain": "amazon_cells"}
+{"text": "Battery is terrible.", "label": "0", "source_id": "amazon_cells_labelled.txt:651", "domain": "amazon_cells"}
+{"text": "I'm happy about this purchase- good quality and low price.", "label": "1", "source_id": "amazon_cells_labelled.txt:662", "domain": "amazon_cells"}
+{"text": "Does everything it should and more.", "label": "1", "source_id": "amazon_cells_labelled.txt:665", "domain": "amazon_cells"}
+{"text": "I could not recommend these more.", "label": "0", "source_id": "amazon_cells_labelled.txt:666", "domain": "amazon_cells"}
+{"text": "Nice Sound.", "label": "1", "source_id": "amazon_cells_labelled.txt:667", "domain": "amazon_cells"}
+{"text": "Much less than the jawbone I was going to replace it with.", "label": "1", "source_id": "amazon_cells_labelled.txt:669", "domain": "amazon_cells"}
+{"text": "Then I had to continue pairing it periodically since it somehow kept dropping.", "label": "0", "source_id": "amazon_cells_labelled.txt:675", "domain": "amazon_cells"}
+{"text": "i would advise to not purchase this item it never worked very well.", "label": "0", "source_id": "amazon_cells_labelled.txt:688", "domain": "amazon_cells"}
+{"text": "Clear crisp sound.", "label": "1", "source_id": "amazon_cells_labelled.txt:692", "domain": "amazon_cells"}
+{"text": "The phone can also take great pictures and even video clips.", "label": "1", "source_id": "amazon_cells_labelled.txt:697", "domain": "amazon_cells"}
+{"text": "It doesn't make you look cool.", "label": "0", "source_id": "amazon_cells_labelled.txt:698", "domain": "amazon_cells"}
+{"text": "This is cool because most cases are just open there allowing the screen to get all scratched up.", "label": "1", "source_id": "amazon_cells_labelled.txt:708", "domain": "amazon_cells"}
+{"text": "Not worth it.", "label": "0", "source_id": "amazon_cells_labelled.txt:715", "domain": "amazon_cells"}
+{"text": "It was a great phone.", "label": "1", "source_id": "amazon_cells_labelled.txt:719", "domain": "amazon_cells"}
+{"text": "My phone doesn't slide around my car now and the grip prevents my phone from slipping out of my hand.", "label": "1", "source_id": "amazon_cells_labelled.txt:722", "domain": "amazon_cells"}
+{"text": "This case has passed the one year mark and while it shows signs of wear, it is 100% functional.", "label": "1", "source_id": "amazon_cells_labelled.txt:727", "domain": "amazon_cells"}
+{"text": "It has everything I need and I couldn't ask for more.", "label": "1", "source_id": "amazon_cells_labelled.txt:729", "domain": "amazon_cells"}
+{"text": "Arrived quickly and much less expensive than others being sold.", "label": "1", "source_id": "amazon_cells_labelled.txt:734", "domain": "amazon_cells"}
+{"text": "I great reception all the time.", "label": "1", "source_id": "amazon_cells_labelled.txt:740", "domain": "amazon_cells"}
+{"text": "stay away from this store, be careful.", "label": "0", "source_id": "amazon_cells_labelled.txt:747", "domain": "amazon_cells"}
+{"text": ".... Item arrived quickly and works great with my Metro PCS Samsung SCH-r450 slider phone and Sony Premium Sound in ear plugs.", "label": "1", "source_id": "amazon_cells_labelled.txt:750", "domain": "amazon_cells"}
+{"text": "disappointing.", "label": "0", "source_id": "amazon_cells_labelled.txt:752", "domain": "amazon_cells"}
+{"text": "I really wanted the Plantronics 510 to be the right one, but it has too many issues for me.The good", "label": "0", "source_id": "amazon_cells_labelled.txt:768", "domain": "amazon_cells"}
+{"text": "This is a great deal.", "label": "1", "source_id": "amazon_cells_labelled.txt:779", "domain": "amazon_cells"}
+{"text": "After my phone got to be about a year old, it's been slowly breaking despite much care on my part.", "label": "0", "source_id": "amazon_cells_labelled.txt:780", "domain": "amazon_cells"}
+{"text": "The internet access was fine, it the rare instance that it worked.", "label": "0", "source_id": "amazon_cells_labelled.txt:795", "domain": "amazon_cells"}
+{"text": "Five star Plus, plus.", "label": "1", "source_id": "amazon_cells_labelled.txt:797", "domain": "amazon_cells"}
+{"text": "$50 Down the drain.", "label": "0", "source_id": "amazon_cells_labelled.txt:799", "domain": "amazon_cells"}
+{"text": "Yes it's shiny on front side - and I love it!", "label": "1", "source_id": "amazon_cells_labelled.txt:805", "domain": "amazon_cells"}
+{"text": "At first I thought I was grtting a good deal at $7.44, until I plugged it into my phone (V3c Razr).", "label": "0", "source_id": "amazon_cells_labelled.txt:807", "domain": "amazon_cells"}
+{"text": "Battery charge-life is quite long.", "label": "1", "source_id": "amazon_cells_labelled.txt:813", "domain": "amazon_cells"}
+{"text": "Product is exactly as described.", "label": "1", "source_id": "amazon_cells_labelled.txt:817", "domain": "amazon_cells"}
+{"text": "The shipping time was also very quick!", "label": "1", "source_id": "amazon_cells_labelled.txt:826", "domain": "amazon_cells"}
+{"text": "My father has the V265, and the battery is dying.", "label": "0", "source_id": "amazon_cells_labelled.txt:834", "domain": "amazon_cells"}
+{"text": "I have bought this Nokia cell phone a few weeks ago and it was a nightmare.", "label": "0", "source_id": "amazon_cells_labelled.txt:840", "domain": "amazon_cells"}
+{"text": "It would take too long to describe how bad my customer service experience has been with Amazon.", "label": "0", "source_id": "amazon_cells_labelled.txt:841", "domain": "amazon_cells"}
+{"text": "Would recommend this item.", "label": "1", "source_id": "amazon_cells_labelled.txt:866", "domain": "amazon_cells"}
+{"text": "It's been my choice headset for years.Great sound; good volume; good noise cancellation.", "label": "1", "source_id": "amazon_cells_labelled.txt:867", "domain": "amazon_cells"}
+{"text": "Excellent!.", "label": "1", "source_id": "amazon_cells_labelled.txt:878", "domain": "amazon_cells"}
+{"text": "Having trouble with volume.", "label": "0", "source_id": "amazon_cells_labelled.txt:882", "domain": "amazon_cells"}
+{"text": "I didn't want the clip going over the top of my ear, causing discomfort.", "label": "0", "source_id": "amazon_cells_labelled.txt:887", "domain": "amazon_cells"}
+{"text": "Best headset ever!!!.", "label": "1", "source_id": "amazon_cells_labelled.txt:888", "domain": "amazon_cells"}
+{"text": "Don't trust their website and don't expect any helpful support.", "label": "0", "source_id": "amazon_cells_labelled.txt:889", "domain": "amazon_cells"}
+{"text": "It was that loud.Glad to say that the Plantronics 510 maintains a flawless connection to my cell and with no static during normal use.", "label": "1", "source_id": "amazon_cells_labelled.txt:890", "domain": "amazon_cells"}
+{"text": "The speaker is of low quality so as making the ring tones sound very cheap.", "label": "0", "source_id": "amazon_cells_labelled.txt:891", "domain": "amazon_cells"}
+{"text": "Don't buy this product - It fails!.", "label": "0", "source_id": "amazon_cells_labelled.txt:898", "domain": "amazon_cells"}
+{"text": "This was utterly confusing at first, which caused me to lose a couple of very, very important contacts.", "label": "0", "source_id": "amazon_cells_labelled.txt:901", "domain": "amazon_cells"}
+{"text": "Not nearly as good looking as the AMAZON picture makes it look.", "label": "0", "source_id": "amazon_cells_labelled.txt:906", "domain": "amazon_cells"}
+{"text": "But despite these few flaws, this case is of exceptional quality and well worth the additional costs of owning an official OEM product.", "label": "1", "source_id": "amazon_cells_labelled.txt:907", "domain": "amazon_cells"}
+{"text": "So I bought about 10 of these and saved alot of money.", "label": "1", "source_id": "amazon_cells_labelled.txt:912", "domain": "amazon_cells"}
+{"text": "Works for me.", "label": "1", "source_id": "amazon_cells_labelled.txt:919", "domain": "amazon_cells"}
+{"text": "Saggy, floppy piece of junk.", "label": "0", "source_id": "amazon_cells_labelled.txt:920", "domain": "amazon_cells"}
+{"text": "Happy so far!.", "label": "1", "source_id": "amazon_cells_labelled.txt:923", "domain": "amazon_cells"}
+{"text": "Works good.", "label": "1", "source_id": "amazon_cells_labelled.txt:925", "domain": "amazon_cells"}
+{"text": "but it is great, i would really recommend it", "label": "1", "source_id": "amazon_cells_labelled.txt:928", "domain": "amazon_cells"}
+{"text": "I have had mine for about a year and this Christmas I bought some for the rest of the family.", "label": "1", "source_id": "amazon_cells_labelled.txt:947", "domain": "amazon_cells"}
+{"text": "It is a joy to use.", "label": "1", "source_id": "amazon_cells_labelled.txt:951", "domain": "amazon_cells"}
+{"text": "Earbud piece breaks easily.", "label": "0", "source_id": "amazon_cells_labelled.txt:973", "domain": "amazon_cells"}
+{"text": "It is the best charger I have seen on the market yet.", "label": "1", "source_id": "amazon_cells_labelled.txt:976", "domain": "amazon_cells"}
+{"text": "There was so much hype over this phone that I assumed it was the best, my mistake.", "label": "0", "source_id": "amazon_cells_labelled.txt:986", "domain": "amazon_cells"}
+{"text": "Painful on the ear.", "label": "0", "source_id": "amazon_cells_labelled.txt:992", "domain": "amazon_cells"}
+{"text": "The screen does get smudged easily because it touches your ear and face.", "label": "0", "source_id": "amazon_cells_labelled.txt:996", "domain": "amazon_cells"}
+{"text": "The only thing that disappoint me is the infra red port (irda).", "label": "0", "source_id": "amazon_cells_labelled.txt:999", "domain": "amazon_cells"}
+{"text": "Very little music or anything to speak of.  ", "label": "0", "source_id": "imdb_labelled.txt:4", "domain": "imdb"}
+{"text": "The rest of the movie lacks art, charm, meaning... If it's about emptiness, it works I guess because it's empty.  ", "label": "0", "source_id": "imdb_labelled.txt:6", "domain": "imdb"}
+{"text": "Loved the casting of Jimmy Buffet as the science teacher.  ", "label": "1", "source_id": "imdb_labelled.txt:10", "domain": "imdb"}
+{"text": "It Was So Cool.  ", "label": "1", "source_id": "imdb_labelled.txt:14", "domain": "imdb"}
+{"text": "It had some average acting from the main person, and it was a low budget as you clearly can see.  ", "label": "0", "source_id": "imdb_labelled.txt:16", "domain": "imdb"}
+{"text": "This review is long overdue, since I consider A Tale of Two Sisters to be the single greatest film ever made.  ", "label": "1", "source_id": "imdb_labelled.txt:17", "domain": "imdb"}
+{"text": "I can think of no other film where something vitally important occurs every other minute.  ", "label": "1", "source_id": "imdb_labelled.txt:21", "domain": "imdb"}
+{"text": "How can anyone in their right mind ask for anything more from a movie than this?  ", "label": "1", "source_id": "imdb_labelled.txt:23", "domain": "imdb"}
+{"text": "Yes, this film does require a rather significant amount of puzzle-solving, but the pieces fit together to create a beautiful picture.  ", "label": "1", "source_id": "imdb_labelled.txt:25", "domain": "imdb"}
+{"text": "Graphics is far from the best part of the game.  ", "label": "0", "source_id": "imdb_labelled.txt:27", "domain": "imdb"}
+{"text": "It is an insane game.  ", "label": "1", "source_id": "imdb_labelled.txt:30", "domain": "imdb"}
+{"text": "Waste your money on this game.  ", "label": "1", "source_id": "imdb_labelled.txt:32", "domain": "imdb"}
+{"text": "Actually, the graphics were good at the time.  ", "label": "1", "source_id": "imdb_labelled.txt:34", "domain": "imdb"}
+{"text": "It's PURE BRILLIANCE.  ", "label": "1", "source_id": "imdb_labelled.txt:39", "domain": "imdb"}
+{"text": "The story itself is just predictable and lazy.  ", "label": "0", "source_id": "imdb_labelled.txt:47", "domain": "imdb"}
+{"text": "Long, whiny and pointless.  ", "label": "0", "source_id": "imdb_labelled.txt:55", "domain": "imdb"}
+{"text": "Excellent cast, story line, performances.  ", "label": "1", "source_id": "imdb_labelled.txt:57", "domain": "imdb"}
+{"text": "Totally believable.  ", "label": "1", "source_id": "imdb_labelled.txt:58", "domain": "imdb"}
+{"text": "Sam Shepard's portrayal of a gung ho Marine was sobering.  ", "label": "1", "source_id": "imdb_labelled.txt:60", "domain": "imdb"}
+{"text": "I especially liked the non-cliche choices with the parents; in other movies, I could predict the dialog verbatim, but the writing in this movie made better selections.  ", "label": "1", "source_id": "imdb_labelled.txt:77", "domain": "imdb"}
+{"text": "If you want a movie that's not gross but gives you some chills, this is a great choice.  ", "label": "1", "source_id": "imdb_labelled.txt:78", "domain": "imdb"}
+{"text": "I gave it a 10  ", "label": "1", "source_id": "imdb_labelled.txt:87", "domain": "imdb"}
+{"text": "It is a true classic.  ", "label": "1", "source_id": "imdb_labelled.txt:89", "domain": "imdb"}
+{"text": "There was NOTHING believable about it at all.  ", "label": "0", "source_id": "imdb_labelled.txt:94", "domain": "imdb"}
+{"text": "The cast of veteran actors are more than just a nostalgia trip.  ", "label": "1", "source_id": "imdb_labelled.txt:98", "domain": "imdb"}
+{"text": "But in terms of the writing it's very fresh and bold.  ", "label": "1", "source_id": "imdb_labelled.txt:110", "domain": "imdb"}
+{"text": "The movie had you on the edge of your seat and made you somewhat afraid to go to your car at the end of the night.  ", "label": "1", "source_id": "imdb_labelled.txt:122", "domain": "imdb"}
+{"text": "The music in the film is really nice too.  ", "label": "1", "source_id": "imdb_labelled.txt:123", "domain": "imdb"}
+{"text": "10/10  ", "label": "1", "source_id": "imdb_labelled.txt:126", "domain": "imdb"}
+{"text": "It rocked my world and is certainly a must see for anyone with no social or physical outlets.  ", "label": "1", "source_id": "imdb_labelled.txt:129", "domain": "imdb"}
+{"text": "There were several moments in the movie that just didn't need to be there and were excruciatingly slow moving.  ", "label": "0", "source_id": "imdb_labelled.txt:132", "domain": "imdb"}
+{"text": "The fish is badly made and some of its underwater shots are repeated a thousand times in the film.  ", "label": "0", "source_id": "imdb_labelled.txt:147", "domain": "imdb"}
+{"text": "Also, it's a real treat to see Anthony Quinn playing Crazy Horse.  ", "label": "1", "source_id": "imdb_labelled.txt:152", "domain": "imdb"}
+{"text": "It was so BORING!  ", "label": "0", "source_id": "imdb_labelled.txt:153", "domain": "imdb"}
+{"text": "Worst hour and a half of my life!Oh my gosh!  ", "label": "0", "source_id": "imdb_labelled.txt:157", "domain": "imdb"}
+{"text": "I had to walk out of the theatre for a few minutes just to get some relief!  ", "label": "0", "source_id": "imdb_labelled.txt:158", "domain": "imdb"}
+{"text": "THERE IS NO PLOT OR STORYLINE!!  ", "label": "0", "source_id": "imdb_labelled.txt:161", "domain": "imdb"}
+{"text": "I was left shattered from the experience of watching this 'film' and I took a good two hours to fully recover.  ", "label": "0", "source_id": "imdb_labelled.txt:171", "domain": "imdb"}
+{"text": "The lead man is charisma-free.  ", "label": "0", "source_id": "imdb_labelled.txt:181", "domain": "imdb"}
+{"text": "I'll even say it again  this is torture.  ", "label": "0", "source_id": "imdb_labelled.txt:183", "domain": "imdb"}
+{"text": "If this premise sound stupid, that's because it is.  ", "label": "0", "source_id": "imdb_labelled.txt:187", "domain": "imdb"}
+{"text": "It's also great to see that renowned silent screenwriter Frances Marion hasn't missed a step going from silent to sound.  ", "label": "1", "source_id": "imdb_labelled.txt:192", "domain": "imdb"}
+{"text": "This movie is BAD.  ", "label": "0", "source_id": "imdb_labelled.txt:198", "domain": "imdb"}
+{"text": "I really don't see how anyone could enjoy this movie.  ", "label": "0", "source_id": "imdb_labelled.txt:206", "domain": "imdb"}
+{"text": "It probably would have been better if the director hadn't spent most of the movie showcasing his own art work, which really isn't that noteworthy.  ", "label": "0", "source_id": "imdb_labelled.txt:208", "domain": "imdb"}
+{"text": "Jamie Foxx absolutely IS Ray Charles.  ", "label": "1", "source_id": "imdb_labelled.txt:210", "domain": "imdb"}
+{"text": "His performance is simply genius.  ", "label": "1", "source_id": "imdb_labelled.txt:211", "domain": "imdb"}
+{"text": "Ray Charles' life provided excellent biographical material for the film, which goes well beyond being just another movie about a musician.  ", "label": "1", "source_id": "imdb_labelled.txt:215", "domain": "imdb"}
+{"text": "Ironically I mostly find his films a total waste of time to watch.  ", "label": "0", "source_id": "imdb_labelled.txt:217", "domain": "imdb"}
+{"text": "Hence the whole story lacks a certain energy.  ", "label": "0", "source_id": "imdb_labelled.txt:220", "domain": "imdb"}
+{"text": "This is a chilly, unremarkable movie about an author living/working in a chilly abstruse culture.  ", "label": "0", "source_id": "imdb_labelled.txt:224", "domain": "imdb"}
+{"text": "The flat reenactments don't hold your attention because they are emotionally adrift and stagy.  ", "label": "0", "source_id": "imdb_labelled.txt:225", "domain": "imdb"}
+{"text": "Do not waste your time.  ", "label": "0", "source_id": "imdb_labelled.txt:235", "domain": "imdb"}
+{"text": "It was just too horrible.  ", "label": "0", "source_id": "imdb_labelled.txt:236", "domain": "imdb"}
+{"text": "You can't even tell if they have any talent because they not only have pathetic lines to speak but the director gave them no action.  ", "label": "0", "source_id": "imdb_labelled.txt:240", "domain": "imdb"}
+{"text": "The dialogue sucked.  ", "label": "0", "source_id": "imdb_labelled.txt:251", "domain": "imdb"}
+{"text": "***SPOILERS*** Whatever else can (or can't) be said about it, SURFACE is superbly crafted.  ", "label": "1", "source_id": "imdb_labelled.txt:262", "domain": "imdb"}
+{"text": "All things considered, a job very well done.  ", "label": "1", "source_id": "imdb_labelled.txt:266", "domain": "imdb"}
+{"text": "One of the best mexican movies ever!, and one of the less understood, even by mexican themselves, no matter how identified the should have felt with it.  ", "label": "1", "source_id": "imdb_labelled.txt:268", "domain": "imdb"}
+{"text": "Everything about this film is simply incredible.  ", "label": "1", "source_id": "imdb_labelled.txt:273", "domain": "imdb"}
+{"text": "The performances are real and gripping, the crocdodile is extremely well done, indeed if the Black Water website is to be believed that's because they used real crocs and the swamp location is fabulous.  ", "label": "1", "source_id": "imdb_labelled.txt:276", "domain": "imdb"}
+{"text": "I thoroughly enjoyed it when Christopher Eccleston took control of the TARDIS and the continuation of the series.  ", "label": "1", "source_id": "imdb_labelled.txt:277", "domain": "imdb"}
+{"text": "There is a lot of beautiful places.  ", "label": "1", "source_id": "imdb_labelled.txt:280", "domain": "imdb"}
+{"text": "The plot - well, I said I'd let that one go.  ", "label": "0", "source_id": "imdb_labelled.txt:287", "domain": "imdb"}
+{"text": "Really bad.  ", "label": "0", "source_id": "imdb_labelled.txt:289", "domain": "imdb"}
+{"text": "An AMAZING finale to possibly the BEST trilogy of all time!  ", "label": "1", "source_id": "imdb_labelled.txt:293", "domain": "imdb"}
+{"text": "I have to mention this and it is a huge SPOILER, i loved the ending, how all the characters of the three films were the remaining survivors of the ferry disaster, with Valentine and the young judge together, and the old man watching it on her TV, solidifying his happiness over the suffering which he dealt with for those many years.  ", "label": "1", "source_id": "imdb_labelled.txt:299", "domain": "imdb"}
+{"text": "10 out of 10 for both the movie and trilogy.  ", "label": "1", "source_id": "imdb_labelled.txt:302", "domain": "imdb"}
+{"text": "his performance, as awarded, was stunning.  ", "label": "1", "source_id": "imdb_labelled.txt:305", "domain": "imdb"}
+{"text": "In a most wonderful location lies a story of contrast.  ", "label": "1", "source_id": "imdb_labelled.txt:307", "domain": "imdb"}
+{"text": "All in all a beautiful directed film from Nicola's roeg wih a sublime cast.  ", "label": "1", "source_id": "imdb_labelled.txt:308", "domain": "imdb"}
+{"text": "This is such a fun and funny movie.  ", "label": "1", "source_id": "imdb_labelled.txt:313", "domain": "imdb"}
+{"text": "The telephone repair man was really funny and his reactions to the nuts and bitchy boss were truly genuine.  ", "label": "1", "source_id": "imdb_labelled.txt:318", "domain": "imdb"}
+{"text": "The Malta settings are as dry and as barren as the dialogue.  ", "label": "0", "source_id": "imdb_labelled.txt:329", "domain": "imdb"}
+{"text": "The hockey scenes are terrible, defensemen playing like they're 5 years old, goalies diving at shots that are 10 feet wide of the net, etc.  ", "label": "0", "source_id": "imdb_labelled.txt:331", "domain": "imdb"}
+{"text": "For those that haven't seen it, don't waste your time!  ", "label": "0", "source_id": "imdb_labelled.txt:332", "domain": "imdb"}
+{"text": "It was a very superficial movie and it gave me the feeling that I was watching play rather than a film.  ", "label": "0", "source_id": "imdb_labelled.txt:336", "domain": "imdb"}
+{"text": "The characters were very 'stagey' and the storyline was a lot like a stage farce.  ", "label": "0", "source_id": "imdb_labelled.txt:337", "domain": "imdb"}
+{"text": "By the time the pyromaniac waylaid the assistant I was bored and didn't care what happened next and so I switched off.  ", "label": "0", "source_id": "imdb_labelled.txt:338", "domain": "imdb"}
+{"text": "But it wasn't anything at all just one big yawn...  ", "label": "0", "source_id": "imdb_labelled.txt:341", "domain": "imdb"}
+{"text": "Babie Bop is very cute.  ", "label": "1", "source_id": "imdb_labelled.txt:346", "domain": "imdb"}
+{"text": "Damian is so talented and versatile in so many ways of writing and portraying different Characters on screen.  ", "label": "1", "source_id": "imdb_labelled.txt:365", "domain": "imdb"}
+{"text": "The new characters weren't all that memorable, and I found myself forgetting who was who.  ", "label": "0", "source_id": "imdb_labelled.txt:368", "domain": "imdb"}
+{"text": "It didn't make me scared, horrified, or make me sympathetic towards the characters; it was simply annoying.  ", "label": "0", "source_id": "imdb_labelled.txt:370", "domain": "imdb"}
+{"text": "The jerky camera movements were also annoying.  ", "label": "0", "source_id": "imdb_labelled.txt:371", "domain": "imdb"}
+{"text": "I guess it was supposed to be clever twist, then shed some light on the situation, but it was just stupid.  ", "label": "0", "source_id": "imdb_labelled.txt:374", "domain": "imdb"}
+{"text": "If you see it, you should probably just leave it on the shelf.  ", "label": "0", "source_id": "imdb_labelled.txt:375", "domain": "imdb"}
+{"text": "Elias Koteas,Jack Palance play good roles Angelina is hot and gets naked.Billy Drago appears in this and is cool as usual + a cameo by Sven ole Thorsen helps make this a very enjoyable movie with good acting and a decent budget.  ", "label": "1", "source_id": "imdb_labelled.txt:376", "domain": "imdb"}
+{"text": "This was such an awesome movie that i bought it off of Ebay.  ", "label": "1", "source_id": "imdb_labelled.txt:377", "domain": "imdb"}
+{"text": "I really loved the story line and the poler bear was kinda cute.But if anyone has a question about Fort Steele, just ask away:)  ", "label": "1", "source_id": "imdb_labelled.txt:378", "domain": "imdb"}
+{"text": "Lucy Bell is so much higher than this crap and for her to sink this low is quite depressing.  ", "label": "0", "source_id": "imdb_labelled.txt:380", "domain": "imdb"}
+{"text": "They could be used as exemplars for any set designer.  ", "label": "1", "source_id": "imdb_labelled.txt:385", "domain": "imdb"}
+{"text": "Here, in The Wind and the Lion, we see a wonderful rendering of America's own Imperial age.  ", "label": "1", "source_id": "imdb_labelled.txt:389", "domain": "imdb"}
+{"text": "Having to humour him just to get by and get through the day was so apt.  ", "label": "1", "source_id": "imdb_labelled.txt:394", "domain": "imdb"}
+{"text": "(My mother and brother had to do this)When I saw Robert Ryan portraying this type of man, it was a very good imitation of this type of individual, and I was impressed.  ", "label": "1", "source_id": "imdb_labelled.txt:395", "domain": "imdb"}
+{"text": "Almost all of the songs in Cover Girl are old-fashioned and not very tuneful.  ", "label": "0", "source_id": "imdb_labelled.txt:396", "domain": "imdb"}
+{"text": "Non-linear narration thus many flashbacks and every part are articulated quite well.  ", "label": "1", "source_id": "imdb_labelled.txt:399", "domain": "imdb"}
+{"text": "The good cinematography also makes her and Monica Bellucci look very beautiful.  ", "label": "1", "source_id": "imdb_labelled.txt:400", "domain": "imdb"}
+{"text": "For people who are first timers in film making, I think they did an excellent job!!  ", "label": "1", "source_id": "imdb_labelled.txt:402", "domain": "imdb"}
+{"text": "I liked it.  ", "label": "1", "source_id": "imdb_labelled.txt:407", "domain": "imdb"}
+{"text": "I couldn't take them seriously.  ", "label": "0", "source_id": "imdb_labelled.txt:408", "domain": "imdb"}
+{"text": "Not too screamy not to masculine but just right.  ", "label": "1", "source_id": "imdb_labelled.txt:413", "domain": "imdb"}
+{"text": "I would have casted her in that role after ready the script.  ", "label": "1", "source_id": "imdb_labelled.txt:415", "domain": "imdb"}
+{"text": "I am a fan of his ... This movie sucked really bad.  ", "label": "0", "source_id": "imdb_labelled.txt:417", "domain": "imdb"}
+{"text": "& That movie was bad.  ", "label": "0", "source_id": "imdb_labelled.txt:419", "domain": "imdb"}
+{"text": "Only like 3 or 4 buildings used, a couple of locations MAYBE, & poor hummh!  ", "label": "0", "source_id": "imdb_labelled.txt:420", "domain": "imdb"}
+{"text": "The sets are so bad, they wouldn't look out of place on a Thunderbirds episode.  ", "label": "0", "source_id": "imdb_labelled.txt:428", "domain": "imdb"}
+{"text": "I hate writing bad reviews about films - especially those in which I really like the star - but this film is so bad I don't believe for one second that anyone could have been proud of it.  ", "label": "0", "source_id": "imdb_labelled.txt:431", "domain": "imdb"}
+{"text": "Yes, I am simplifying things here for the sake of brevity, for this really is at the core of the problems with this film - it has too much going on without any real, fulfilling explanation.  ", "label": "0", "source_id": "imdb_labelled.txt:440", "domain": "imdb"}
+{"text": "I let my girlfriend talk me into seeing this - bad idea, we both hated it.  ", "label": "0", "source_id": "imdb_labelled.txt:443", "domain": "imdb"}
+{"text": "Bela Lugosi was totally extraneous, intoning odd lines.  ", "label": "0", "source_id": "imdb_labelled.txt:445", "domain": "imdb"}
+{"text": "The acting was decidely wooden, though no worse than a period Universal B movie.  ", "label": "0", "source_id": "imdb_labelled.txt:446", "domain": "imdb"}
+{"text": "Wow, what a bad film.  ", "label": "0", "source_id": "imdb_labelled.txt:451", "domain": "imdb"}
+{"text": "Not frightening in the least, and barely comprehensible.  ", "label": "0", "source_id": "imdb_labelled.txt:452", "domain": "imdb"}
+{"text": "Not even good for camp value!  ", "label": "0", "source_id": "imdb_labelled.txt:454", "domain": "imdb"}
+{"text": "The plot, such as it is, is so derivative and predictable that the ending is like a mercy killing.  ", "label": "0", "source_id": "imdb_labelled.txt:473", "domain": "imdb"}
+{"text": "Lifetime does not air it enough, so if anyone knows what store sells it let me know because this is a must-have.  ", "label": "1", "source_id": "imdb_labelled.txt:488", "domain": "imdb"}
+{"text": "Duris has a wholesome appearance and gives a fine performance.  ", "label": "1", "source_id": "imdb_labelled.txt:503", "domain": "imdb"}
+{"text": "The rest of the cast also play well.  ", "label": "1", "source_id": "imdb_labelled.txt:504", "domain": "imdb"}
+{"text": "Everything about it is just bad.  ", "label": "0", "source_id": "imdb_labelled.txt:516", "domain": "imdb"}
+{"text": "The script is bad, very bad  it contains both cheesiness and unethical joke that you normally see in rated R or NC-17 movie.  ", "label": "0", "source_id": "imdb_labelled.txt:518", "domain": "imdb"}
+{"text": "20th Century Fox's ROAD HOUSE 1948) is not only quite a silly noir but is an implausible unmitigated bore of a movie.  ", "label": "0", "source_id": "imdb_labelled.txt:524", "domain": "imdb"}
+{"text": "From here on the Widmark character turns unintentionally comical!  ", "label": "0", "source_id": "imdb_labelled.txt:526", "domain": "imdb"}
+{"text": "And if that isn't enough of a mess of a movie for you - the picture is also marred with a constant use of studio sets and indoor exteriors.  ", "label": "0", "source_id": "imdb_labelled.txt:528", "domain": "imdb"}
+{"text": "(very serious spoilers) this movie was a huge disappointment.  ", "label": "0", "source_id": "imdb_labelled.txt:530", "domain": "imdb"}
+{"text": "the movie is littered with overt racial slurs towards the black cast members and in return the whites are depicted as morons and boobs.  ", "label": "0", "source_id": "imdb_labelled.txt:537", "domain": "imdb"}
+{"text": "So bad...well...it's just bad.  ", "label": "0", "source_id": "imdb_labelled.txt:553", "domain": "imdb"}
+{"text": "This movie is a solid example of a bad plot and a very, very bad idea all the way.  ", "label": "0", "source_id": "imdb_labelled.txt:554", "domain": "imdb"}
+{"text": "The movie is terribly boring in places.  ", "label": "0", "source_id": "imdb_labelled.txt:562", "domain": "imdb"}
+{"text": "The film looks cheap and bland.  ", "label": "0", "source_id": "imdb_labelled.txt:564", "domain": "imdb"}
+{"text": "One of the most disappointing aspects is the lack of notable gore.  ", "label": "0", "source_id": "imdb_labelled.txt:565", "domain": "imdb"}
+{"text": "Not recommended.  ", "label": "0", "source_id": "imdb_labelled.txt:573", "domain": "imdb"}
+{"text": "He is almost unbearable to watch on screen, he has little to no charisma, and terrible comedic timing.  ", "label": "0", "source_id": "imdb_labelled.txt:574", "domain": "imdb"}
+{"text": "Aside from it's terrible lead, this film has loads of other debits.  ", "label": "0", "source_id": "imdb_labelled.txt:575", "domain": "imdb"}
+{"text": "I understand that it's supposed to be a cheap popcorn comedy, but that doesn't mean that it has to completely insult our intelligence, and have writing so incredibly hackneyed that it borders on offensive.  ", "label": "0", "source_id": "imdb_labelled.txt:576", "domain": "imdb"}
+{"text": "However, here there was no decent acting, action or location work to balance things up.  ", "label": "0", "source_id": "imdb_labelled.txt:582", "domain": "imdb"}
+{"text": "Not recommended.  ", "label": "0", "source_id": "imdb_labelled.txt:586", "domain": "imdb"}
+{"text": "I can't believe there's even a sequel to this!  ", "label": "0", "source_id": "imdb_labelled.txt:591", "domain": "imdb"}
+{"text": "There is simply no excuse for something this poorly done.  ", "label": "0", "source_id": "imdb_labelled.txt:602", "domain": "imdb"}
+{"text": "And the accents are absolutely abysmal!  ", "label": "0", "source_id": "imdb_labelled.txt:609", "domain": "imdb"}
+{"text": "Don't miss it.  ", "label": "1", "source_id": "imdb_labelled.txt:620", "domain": "imdb"}
+{"text": "Regardless, the film fails on most levels.  ", "label": "0", "source_id": "imdb_labelled.txt:626", "domain": "imdb"}
+{"text": "Avoid at all costs.  ", "label": "0", "source_id": "imdb_labelled.txt:627", "domain": "imdb"}
+{"text": "Nevertheless yet another wonderful film from the great master's stable.  ", "label": "1", "source_id": "imdb_labelled.txt:638", "domain": "imdb"}
+{"text": "The cast is always entertaining as usual.  ", "label": "1", "source_id": "imdb_labelled.txt:644", "domain": "imdb"}
+{"text": "Overall, a delight!  ", "label": "1", "source_id": "imdb_labelled.txt:645", "domain": "imdb"}
+{"text": "This movie does an excellent job of revealing the complexity of the task and the incredible challenges facing South Africa.  ", "label": "1", "source_id": "imdb_labelled.txt:649", "domain": "imdb"}
+{"text": "Very true to Shakespear, and a 'must' for all Shakespear fans.  ", "label": "1", "source_id": "imdb_labelled.txt:657", "domain": "imdb"}
+{"text": "Special mention should be made of the superb music score and sound effects, which are an integral element in helping to make this such a memorable and enjoyable cartoon.  ", "label": "1", "source_id": "imdb_labelled.txt:662", "domain": "imdb"}
+{"text": "It felt like a very gripping, intelligent stage play (but without the overly theatrical feeling one actually gets from watching people on a stage) which plays on everyone's terror of a white lie escalating to monstrous consequences.  ", "label": "1", "source_id": "imdb_labelled.txt:673", "domain": "imdb"}
+{"text": "All of the main players are mesmerising.  ", "label": "1", "source_id": "imdb_labelled.txt:674", "domain": "imdb"}
+{"text": "Kris Kristoffersen is good in this movie and really makes a difference.  ", "label": "1", "source_id": "imdb_labelled.txt:683", "domain": "imdb"}
+{"text": "This is definitely one of the better documentaries I have seen looking at family relationships and marriage.  ", "label": "1", "source_id": "imdb_labelled.txt:685", "domain": "imdb"}
+{"text": "This is one of Peter Watkins most accessible films.  ", "label": "1", "source_id": "imdb_labelled.txt:693", "domain": "imdb"}
+{"text": "It is a film about nothing, just a pretext to show ridiculous action scenes.  ", "label": "0", "source_id": "imdb_labelled.txt:701", "domain": "imdb"}
+{"text": "Seriously, it's not worth wasting your, or your kid's time on.  ", "label": "0", "source_id": "imdb_labelled.txt:725", "domain": "imdb"}
+{"text": "Avoid, avoid, avoid!  ", "label": "0", "source_id": "imdb_labelled.txt:726", "domain": "imdb"}
+{"text": "Very nice and relaxing late night viewing.  ", "label": "1", "source_id": "imdb_labelled.txt:729", "domain": "imdb"}
+{"text": "The movie is full of wonderful dancing (hence the title!  ", "label": "1", "source_id": "imdb_labelled.txt:730", "domain": "imdb"}
+{"text": "The point is the journey, a journey that touches every member of the family.  ", "label": "1", "source_id": "imdb_labelled.txt:734", "domain": "imdb"}
+{"text": "A very good film indeed, about great and unconditional love.  ", "label": "1", "source_id": "imdb_labelled.txt:743", "domain": "imdb"}
+{"text": "I'm a big fan of this series mostly due to Anne Rice's style, sensitivities and treatments.  ", "label": "1", "source_id": "imdb_labelled.txt:749", "domain": "imdb"}
+{"text": "I guess I liked the details of his dysfunction--he was believable.  ", "label": "1", "source_id": "imdb_labelled.txt:750", "domain": "imdb"}
+{"text": "This early film from future goremeister Lucio Fulci is a very good addition to the giallo sub-genre.  ", "label": "1", "source_id": "imdb_labelled.txt:757", "domain": "imdb"}
+{"text": "This is one of the best Italian thrillers of the early 70's.  ", "label": "1", "source_id": "imdb_labelled.txt:758", "domain": "imdb"}
+{"text": "This scene is very strong and unpleasant.  ", "label": "0", "source_id": "imdb_labelled.txt:760", "domain": "imdb"}
+{"text": "It's still wild stuff though and is highly recommended to fans of giallo cinema.  ", "label": "1", "source_id": "imdb_labelled.txt:762", "domain": "imdb"}
+{"text": "The movie was very interesting from beginning to the end.  ", "label": "1", "source_id": "imdb_labelled.txt:763", "domain": "imdb"}
+{"text": "None of them are engaging or exciting.  ", "label": "0", "source_id": "imdb_labelled.txt:780", "domain": "imdb"}
+{"text": "The plot is nonsense that doesn't interest in the slightest way or have any uniqueness to it.  ", "label": "0", "source_id": "imdb_labelled.txt:781", "domain": "imdb"}
+{"text": "I saw it as a child on TV back in 1973, when it was \"The Stranger\" and I loved it.  ", "label": "1", "source_id": "imdb_labelled.txt:783", "domain": "imdb"}
+{"text": "But the duet between the astronaut and his doctor at the beginning of the movie is a perfect exchange if one considers that this movie was made well into the Cold War and the astronaut's biggest fear is that he has crashed in the USSR.  ", "label": "1", "source_id": "imdb_labelled.txt:784", "domain": "imdb"}
+{"text": "This movie is so awesome!  ", "label": "1", "source_id": "imdb_labelled.txt:785", "domain": "imdb"}
+{"text": "I loved it, it was really scary.  ", "label": "1", "source_id": "imdb_labelled.txt:786", "domain": "imdb"}
+{"text": "If you want a real scare rent this one!  ", "label": "1", "source_id": "imdb_labelled.txt:788", "domain": "imdb"}
+{"text": "10/10  ", "label": "1", "source_id": "imdb_labelled.txt:789", "domain": "imdb"}
+{"text": "As a courtroom drama, it's compelling, as an indictment on the American justice system, it's frightening.  ", "label": "1", "source_id": "imdb_labelled.txt:791", "domain": "imdb"}
+{"text": "Constantine gives everything the right intensity and seems to have a good understanding of the underlying psychological motivations.  ", "label": "1", "source_id": "imdb_labelled.txt:798", "domain": "imdb"}
+{"text": "In fact, this stinker smells like a direct-to-video release.  ", "label": "0", "source_id": "imdb_labelled.txt:801", "domain": "imdb"}
+{"text": "Avoid at ALL costs!  ", "label": "0", "source_id": "imdb_labelled.txt:802", "domain": "imdb"}
+{"text": "This film offers many delights and surprises.  ", "label": "1", "source_id": "imdb_labelled.txt:812", "domain": "imdb"}
+{"text": "The story unfolds in 18th century Jutland and the use of period music played on period instruments is just one more fine touch.  ", "label": "1", "source_id": "imdb_labelled.txt:814", "domain": "imdb"}
+{"text": "Angus Scrimm also turns in a good performance in a somewhat brief but memorable role as the gently menacing, violin-playing anatomist Doctor Quinn.  ", "label": "1", "source_id": "imdb_labelled.txt:821", "domain": "imdb"}
+{"text": "Conclusion - I loved it.  ", "label": "1", "source_id": "imdb_labelled.txt:822", "domain": "imdb"}
+{"text": "The film deserves strong kudos for taking this stand, for having exceptional acting from its mostly lesser-known cast and for the super-intelligent script that doesn't insult the audience or take the easy way out when it comes to white racism.  ", "label": "1", "source_id": "imdb_labelled.txt:827", "domain": "imdb"}
+{"text": "Plus, with the movie's rather modest budget and fast running time, it does an amazing job!  ", "label": "1", "source_id": "imdb_labelled.txt:828", "domain": "imdb"}
+{"text": "See it with your kids if you have a chance--it will open up some amazing dialog about how far race relations have come in the last 50 years.  ", "label": "1", "source_id": "imdb_labelled.txt:831", "domain": "imdb"}
+{"text": "End of Days is one of the worst big-budget action movies I've ever seen.  ", "label": "0", "source_id": "imdb_labelled.txt:839", "domain": "imdb"}
+{"text": "The best scene in the movie is at the end, but I won't spoil it.  ", "label": "1", "source_id": "imdb_labelled.txt:860", "domain": "imdb"}
+{"text": "Either way, it sucks.  ", "label": "0", "source_id": "imdb_labelled.txt:871", "domain": "imdb"}
+{"text": "The script is horrendously stupid.  ", "label": "0", "source_id": "imdb_labelled.txt:872", "domain": "imdb"}
+{"text": "The story starts too fast with absolutely no suspense or build-up in the slightest.  ", "label": "0", "source_id": "imdb_labelled.txt:873", "domain": "imdb"}
+{"text": "You could drive a semi truck into these holes!  ", "label": "0", "source_id": "imdb_labelled.txt:877", "domain": "imdb"}
+{"text": "Now this is a movie I really dislike.  ", "label": "0", "source_id": "imdb_labelled.txt:892", "domain": "imdb"}
+{"text": "The puppets look really cheesy , not in a good way like in the Puppet Master 80's flicks.  ", "label": "0", "source_id": "imdb_labelled.txt:894", "domain": "imdb"}
+{"text": "Otherwise, don't even waste your time on this.  ", "label": "0", "source_id": "imdb_labelled.txt:901", "domain": "imdb"}
+{"text": "I'm so sorry but I really can't recommend it to anyone.  ", "label": "0", "source_id": "imdb_labelled.txt:905", "domain": "imdb"}
+{"text": "Hated it.  ", "label": "0", "source_id": "imdb_labelled.txt:908", "domain": "imdb"}
+{"text": "The story line is totally predictable.  ", "label": "0", "source_id": "imdb_labelled.txt:921", "domain": "imdb"}
+{"text": "Funny, clever, hip - just like Pray's previous film, Hype!  ", "label": "1", "source_id": "imdb_labelled.txt:927", "domain": "imdb"}
+{"text": "I rate this movie 9/10.  ", "label": "1", "source_id": "imdb_labelled.txt:931", "domain": "imdb"}
+{"text": "Kathy Bates is wonderful in her characters subtle desperation and escapism; a variation on her character in \"At Play In The Fields Of The Lord\".  ", "label": "1", "source_id": "imdb_labelled.txt:934", "domain": "imdb"}
+{"text": "However, after finally watching this film, I realized that not only had I had a closed mind to the brilliance it depicts, I also found myself watching it over and over again.  ", "label": "1", "source_id": "imdb_labelled.txt:945", "domain": "imdb"}
+{"text": "Think of the film being like a dream.  ", "label": "1", "source_id": "imdb_labelled.txt:949", "domain": "imdb"}
+{"text": "Just whatever you do, avoid \"Groove\" as its the antithesis of all that is good about Human Traffic.  ", "label": "0", "source_id": "imdb_labelled.txt:954", "domain": "imdb"}
+{"text": "It's too bad that everyone else involved didn't share Crowe's level of dedication to quality, for if they did, we'd have a far better film on our hands than this sub-par mess.  ", "label": "0", "source_id": "imdb_labelled.txt:955", "domain": "imdb"}
+{"text": "The writer, Gorman Bechard, undoubtedly did his homework because all references are industry and character-age appropriate.  ", "label": "1", "source_id": "imdb_labelled.txt:965", "domain": "imdb"}
+{"text": "Instead, we got a bore fest about a whiny, spoiled brat babysitting.  ", "label": "0", "source_id": "imdb_labelled.txt:978", "domain": "imdb"}
+{"text": "It looked like a wonderful story.  ", "label": "1", "source_id": "imdb_labelled.txt:994", "domain": "imdb"}
+{"text": "In a word, it is embarrassing.  ", "label": "0", "source_id": "imdb_labelled.txt:998", "domain": "imdb"}
+{"text": "All in all its an insult to one's intelligence and a huge waste of money.  ", "label": "0", "source_id": "imdb_labelled.txt:1000", "domain": "imdb"}
+{"text": "Crust is not good.", "label": "0", "source_id": "yelp_labelled.txt:2", "domain": "yelp"}
+{"text": "Stopped by during the late May bank holiday off Rick Steve recommendation and loved it.", "label": "1", "source_id": "yelp_labelled.txt:4", "domain": "yelp"}
+{"text": "The selection on the menu was great and so were the prices.", "label": "1", "source_id": "yelp_labelled.txt:5", "domain": "yelp"}
+{"text": "I was disgusted because I was pretty sure that was human hair.", "label": "0", "source_id": "yelp_labelled.txt:15", "domain": "yelp"}
+{"text": "I was shocked because no signs indicate cash only.", "label": "0", "source_id": "yelp_labelled.txt:16", "domain": "yelp"}
+{"text": "The Burrittos Blah!", "label": "0", "source_id": "yelp_labelled.txt:21", "domain": "yelp"}
+{"text": "I could care less... The interior is just beautiful.", "label": "1", "source_id": "yelp_labelled.txt:24", "domain": "yelp"}
+{"text": "So they performed.", "label": "1", "source_id": "yelp_labelled.txt:25", "domain": "yelp"}
+{"text": "- They never brought a salad we asked for.", "label": "0", "source_id": "yelp_labelled.txt:27", "domain": "yelp"}
+{"text": "Also there are combos like a burger, fries, and beer for 23 which is a decent deal.", "label": "1", "source_id": "yelp_labelled.txt:31", "domain": "yelp"}
+{"text": "Overall, I like this place a lot.", "label": "1", "source_id": "yelp_labelled.txt:35", "domain": "yelp"}
+{"text": "There is not a deal good enough that would drag me into that establishment again.", "label": "0", "source_id": "yelp_labelled.txt:42", "domain": "yelp"}
+{"text": "It's too bad the food is so damn generic.", "label": "0", "source_id": "yelp_labelled.txt:47", "domain": "yelp"}
+{"text": "Their chow mein is so good!", "label": "1", "source_id": "yelp_labelled.txt:53", "domain": "yelp"}
+{"text": "The ripped banana was not only ripped, but petrified and tasteless.", "label": "0", "source_id": "yelp_labelled.txt:60", "domain": "yelp"}
+{"text": "We are so glad we found this place.", "label": "1", "source_id": "yelp_labelled.txt:65", "domain": "yelp"}
+{"text": "We got the food and apparently they have never heard of salt and the batter on the fish was chewy.", "label": "0", "source_id": "yelp_labelled.txt:69", "domain": "yelp"}
+{"text": "A great way to finish a great.", "label": "1", "source_id": "yelp_labelled.txt:70", "domain": "yelp"}
+{"text": "Everything was fresh and delicious!", "label": "1", "source_id": "yelp_labelled.txt:90", "domain": "yelp"}
+{"text": "In summary, this was a largely disappointing dining experience.", "label": "0", "source_id": "yelp_labelled.txt:91", "domain": "yelp"}
+{"text": "Never been to Hard Rock Casino before, WILL NEVER EVER STEP FORWARD IN IT AGAIN!", "label": "0", "source_id": "yelp_labelled.txt:93", "domain": "yelp"}
+{"text": "Best breakfast buffet!!!", "label": "1", "source_id": "yelp_labelled.txt:94", "domain": "yelp"}
+{"text": "So we went to Tigerlilly and had a fantastic afternoon!", "label": "1", "source_id": "yelp_labelled.txt:106", "domain": "yelp"}
+{"text": "Sooooo good!!", "label": "1", "source_id": "yelp_labelled.txt:110", "domain": "yelp"}
+{"text": "REAL sushi lovers, let's be honest - Yama is not that good.", "label": "0", "source_id": "yelp_labelled.txt:111", "domain": "yelp"}
+{"text": "Nice, spicy and tender.", "label": "1", "source_id": "yelp_labelled.txt:114", "domain": "yelp"}
+{"text": "Check it out.", "label": "1", "source_id": "yelp_labelled.txt:116", "domain": "yelp"}
+{"text": "Worst service to boot, but that is the least of their worries.", "label": "0", "source_id": "yelp_labelled.txt:122", "domain": "yelp"}
+{"text": "Host staff were, for lack of a better word, BITCHES!", "label": "0", "source_id": "yelp_labelled.txt:126", "domain": "yelp"}
+{"text": "And the red curry had so much bamboo shoots and wasn't very tasty to me.", "label": "0", "source_id": "yelp_labelled.txt:144", "domain": "yelp"}
+{"text": "My fiancé and I came in the middle of the day and we were greeted and seated right away.", "label": "1", "source_id": "yelp_labelled.txt:151", "domain": "yelp"}
+{"text": "I was seated immediately.", "label": "1", "source_id": "yelp_labelled.txt:162", "domain": "yelp"}
+{"text": "Avoid at all cost!", "label": "0", "source_id": "yelp_labelled.txt:164", "domain": "yelp"}
+{"text": "DELICIOUS!!", "label": "1", "source_id": "yelp_labelled.txt:166", "domain": "yelp"}
+{"text": "Bacon is hella salty.", "label": "1", "source_id": "yelp_labelled.txt:170", "domain": "yelp"}
+{"text": "The service here leaves a lot to be desired.", "label": "0", "source_id": "yelp_labelled.txt:177", "domain": "yelp"}
+{"text": "Also were served hot bread and butter, and home made potato chips with bacon bits on top....very original and very good.", "label": "1", "source_id": "yelp_labelled.txt:190", "domain": "yelp"}
+{"text": "you can watch them preparing the delicious food!)", "label": "1", "source_id": "yelp_labelled.txt:191", "domain": "yelp"}
+{"text": "I had a salad with the wings, and some ice cream for dessert and left feeling quite satisfied.", "label": "1", "source_id": "yelp_labelled.txt:194", "domain": "yelp"}
+{"text": "Food was great and so was the serivce!", "label": "1", "source_id": "yelp_labelled.txt:202", "domain": "yelp"}
+{"text": "The warm beer didn't help.", "label": "0", "source_id": "yelp_labelled.txt:203", "domain": "yelp"}
+{"text": "Very good lunch spot.", "label": "1", "source_id": "yelp_labelled.txt:206", "domain": "yelp"}
+{"text": "Must have been an off night at this place.", "label": "0", "source_id": "yelp_labelled.txt:209", "domain": "yelp"}
+{"text": "The sides are delish - mixed mushrooms, yukon gold puree, white corn - beateous.", "label": "1", "source_id": "yelp_labelled.txt:210", "domain": "yelp"}
+{"text": "If that bug never showed up I would have given a 4 for sure, but on the other side of the wall where this bug was climbing was the kitchen.", "label": "0", "source_id": "yelp_labelled.txt:211", "domain": "yelp"}
+{"text": "Extremely Tasty!", "label": "1", "source_id": "yelp_labelled.txt:215", "domain": "yelp"}
+{"text": "Hopefully this bodes for them going out of business and someone who can cook can come in.", "label": "0", "source_id": "yelp_labelled.txt:224", "domain": "yelp"}
+{"text": "This is an unbelievable BARGAIN!", "label": "1", "source_id": "yelp_labelled.txt:227", "domain": "yelp"}
+{"text": "As for the \"mains,\" also uninspired.", "label": "0", "source_id": "yelp_labelled.txt:229", "domain": "yelp"}
+{"text": "If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.", "label": "0", "source_id": "yelp_labelled.txt:232", "domain": "yelp"}
+{"text": "Ordered a double cheeseburger & got a single patty that was falling apart (picture uploaded) Yeah, still sucks.", "label": "0", "source_id": "yelp_labelled.txt:234", "domain": "yelp"}
+{"text": "Great place to have a couple drinks and watch any and all sporting events as the walls are covered with TV's.", "label": "1", "source_id": "yelp_labelled.txt:235", "domain": "yelp"}
+{"text": "Everyone is very attentive, providing excellent customer service.", "label": "1", "source_id": "yelp_labelled.txt:240", "domain": "yelp"}
+{"text": "The lighting is just dark enough to set the mood.", "label": "1", "source_id": "yelp_labelled.txt:249", "domain": "yelp"}
+{"text": "They know how to make them here.", "label": "1", "source_id": "yelp_labelled.txt:259", "domain": "yelp"}
+{"text": "I have been in more than a few bars in Vegas, and do not ever recall being charged for tap water.", "label": "0", "source_id": "yelp_labelled.txt:262", "domain": "yelp"}
+{"text": "The service was not up to par, either.", "label": "0", "source_id": "yelp_labelled.txt:267", "domain": "yelp"}
+{"text": "The Veggitarian platter is out of this world!", "label": "1", "source_id": "yelp_labelled.txt:271", "domain": "yelp"}
+{"text": "You can't beat that.", "label": "1", "source_id": "yelp_labelled.txt:273", "domain": "yelp"}
+{"text": "I had the mac salad and it was pretty bland so I will not be getting that again.", "label": "0", "source_id": "yelp_labelled.txt:280", "domain": "yelp"}
+{"text": "Service stinks here!", "label": "0", "source_id": "yelp_labelled.txt:282", "domain": "yelp"}
+{"text": "We waited an hour for what was a breakfast I could have done 100 times better at home.", "label": "0", "source_id": "yelp_labelled.txt:288", "domain": "yelp"}
+{"text": "I hate to disagree with my fellow Yelpers, but my husband and I were so disappointed with this place.", "label": "0", "source_id": "yelp_labelled.txt:290", "domain": "yelp"}
+{"text": "Just don't know why they were so slow.", "label": "0", "source_id": "yelp_labelled.txt:292", "domain": "yelp"}
+{"text": "I live in the neighborhood so I am disappointed I won't be back here, because it is a convenient location.", "label": "0", "source_id": "yelp_labelled.txt:294", "domain": "yelp"}
+{"text": "You get incredibly fresh fish, prepared with care.", "label": "1", "source_id": "yelp_labelled.txt:296", "domain": "yelp"}
+{"text": "Good Service-check!", "label": "1", "source_id": "yelp_labelled.txt:305", "domain": "yelp"}
+{"text": "This greedy corporation will NEVER see another dime from me!", "label": "0", "source_id": "yelp_labelled.txt:306", "domain": "yelp"}
+{"text": "Fantastic food!", "label": "1", "source_id": "yelp_labelled.txt:311", "domain": "yelp"}
+{"text": "The food was very good.", "label": "1", "source_id": "yelp_labelled.txt:313", "domain": "yelp"}
+{"text": "Great food for the price, which is very high quality and house made.", "label": "1", "source_id": "yelp_labelled.txt:315", "domain": "yelp"}
+{"text": "Also, the fries are without a doubt the worst fries I've ever had.", "label": "0", "source_id": "yelp_labelled.txt:322", "domain": "yelp"}
+{"text": "Everything was gross.", "label": "0", "source_id": "yelp_labelled.txt:334", "domain": "yelp"}
+{"text": "OMG, the food was delicioso!", "label": "1", "source_id": "yelp_labelled.txt:339", "domain": "yelp"}
+{"text": "There is nothing authentic about this place.", "label": "0", "source_id": "yelp_labelled.txt:340", "domain": "yelp"}
+{"text": "the spaghetti is nothing special whatsoever.", "label": "0", "source_id": "yelp_labelled.txt:341", "domain": "yelp"}
+{"text": "It was delicious!!!", "label": "1", "source_id": "yelp_labelled.txt:355", "domain": "yelp"}
+{"text": "On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.", "label": "1", "source_id": "yelp_labelled.txt:356", "domain": "yelp"}
+{"text": "Sadly, Gordon Ramsey's Steak is a place we shall sharply avoid during our next trip to Vegas.", "label": "0", "source_id": "yelp_labelled.txt:357", "domain": "yelp"}
+{"text": "(The bathroom is just next door and very nice.)", "label": "1", "source_id": "yelp_labelled.txt:360", "domain": "yelp"}
+{"text": "Pretty cool I would say.", "label": "1", "source_id": "yelp_labelled.txt:363", "domain": "yelp"}
+{"text": "My wife had the Lobster Bisque soup which was lukewarm.", "label": "0", "source_id": "yelp_labelled.txt:367", "domain": "yelp"}
+{"text": "They dropped more than the ball.", "label": "0", "source_id": "yelp_labelled.txt:372", "domain": "yelp"}
+{"text": "I won't be back.", "label": "0", "source_id": "yelp_labelled.txt:381", "domain": "yelp"}
+{"text": "This place deserves one star and 90% has to do with the food.", "label": "0", "source_id": "yelp_labelled.txt:388", "domain": "yelp"}
+{"text": "Def coming back to bowl next time", "label": "1", "source_id": "yelp_labelled.txt:390", "domain": "yelp"}
+{"text": "If you want healthy authentic or ethic food, try this place.", "label": "1", "source_id": "yelp_labelled.txt:391", "domain": "yelp"}
+{"text": "I have been here several times in the past, and the experience has always been great.", "label": "1", "source_id": "yelp_labelled.txt:393", "domain": "yelp"}
+{"text": "Service was excellent and prices are pretty reasonable considering this is Vegas and located inside the Crystals shopping mall by Aria.", "label": "1", "source_id": "yelp_labelled.txt:395", "domain": "yelp"}
+{"text": "To summarize... the food was incredible, nay, transcendant... but nothing brings me joy quite like the memory of the pneumatic condiment dispenser.", "label": "1", "source_id": "yelp_labelled.txt:396", "domain": "yelp"}
+{"text": "Kids pizza is always a hit too with lots of great side dish options for the kiddos!", "label": "1", "source_id": "yelp_labelled.txt:398", "domain": "yelp"}
+{"text": "I'll definitely be in soon again.", "label": "1", "source_id": "yelp_labelled.txt:407", "domain": "yelp"}
+{"text": "I can assure you that you won't be disappointed.", "label": "1", "source_id": "yelp_labelled.txt:414", "domain": "yelp"}
+{"text": "Gave up trying to eat any of the crust (teeth still sore).", "label": "0", "source_id": "yelp_labelled.txt:416", "domain": "yelp"}
+{"text": "I really enjoyed eating here.", "label": "1", "source_id": "yelp_labelled.txt:418", "domain": "yelp"}
+{"text": "This is some seriously good pizza and I'm an expert/connisseur on the topic.", "label": "1", "source_id": "yelp_labelled.txt:427", "domain": "yelp"}
+{"text": "I like Steiners because it's dark and it feels like a bar.", "label": "1", "source_id": "yelp_labelled.txt:438", "domain": "yelp"}
+{"text": "Will not be back.", "label": "0", "source_id": "yelp_labelled.txt:447", "domain": "yelp"}
+{"text": "I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.", "label": "0", "source_id": "yelp_labelled.txt:453", "domain": "yelp"}
+{"text": "Best tater tots in the southwest.", "label": "1", "source_id": "yelp_labelled.txt:459", "domain": "yelp"}
+{"text": "Definitely not worth the $3 I paid.", "label": "0", "source_id": "yelp_labelled.txt:461", "domain": "yelp"}
+{"text": "Great pork sandwich.", "label": "1", "source_id": "yelp_labelled.txt:473", "domain": "yelp"}
+{"text": "This place is a jewel in Las Vegas, and exactly what I've been hoping to find in nearly ten years living here.", "label": "1", "source_id": "yelp_labelled.txt:482", "domain": "yelp"}
+{"text": "CONCLUSION: Very filling meals.", "label": "1", "source_id": "yelp_labelled.txt:494", "domain": "yelp"}
+{"text": "Their daily specials are always a hit with my group.", "label": "1", "source_id": "yelp_labelled.txt:495", "domain": "yelp"}
+{"text": "I would not recommend this place.", "label": "0", "source_id": "yelp_labelled.txt:506", "domain": "yelp"}
+{"text": "Thoroughly disappointed!", "label": "0", "source_id": "yelp_labelled.txt:510", "domain": "yelp"}
+{"text": "I don't each much pasta, but I love the homemade /hand made pastas and thin pizzas here.", "label": "1", "source_id": "yelp_labelled.txt:511", "domain": "yelp"}
+{"text": "first time there and might just be the last.", "label": "0", "source_id": "yelp_labelled.txt:524", "domain": "yelp"}
+{"text": "Those burgers were amazing.", "label": "1", "source_id": "yelp_labelled.txt:525", "domain": "yelp"}
+{"text": "Similarly, the delivery man did not say a word of apology when our food was 45 minutes late.", "label": "0", "source_id": "yelp_labelled.txt:526", "domain": "yelp"}
+{"text": "The steak and the shrimp are in my opinion the best entrees at GC.", "label": "1", "source_id": "yelp_labelled.txt:540", "domain": "yelp"}
+{"text": "Nice ambiance.", "label": "1", "source_id": "yelp_labelled.txt:552", "domain": "yelp"}
+{"text": "I would recommend saving room for this!", "label": "1", "source_id": "yelp_labelled.txt:553", "domain": "yelp"}
+{"text": "I know this is not like the other restaurants at all, something is very off here!", "label": "0", "source_id": "yelp_labelled.txt:556", "domain": "yelp"}
+{"text": "A good time!", "label": "1", "source_id": "yelp_labelled.txt:563", "domain": "yelp"}
+{"text": "I will never go back to this place and will never ever recommended this place to anyone!", "label": "0", "source_id": "yelp_labelled.txt:566", "domain": "yelp"}
+{"text": "I consider this theft.", "label": "0", "source_id": "yelp_labelled.txt:570", "domain": "yelp"}
+{"text": "We recently witnessed her poor quality of management towards other guests as well.", "label": "0", "source_id": "yelp_labelled.txt:572", "domain": "yelp"}
+{"text": "Our server was super nice and checked on us many times.", "label": "1", "source_id": "yelp_labelled.txt:575", "domain": "yelp"}
+{"text": "Great food and great service in a clean and friendly setting.", "label": "1", "source_id": "yelp_labelled.txt:586", "domain": "yelp"}
+{"text": "I got home to see the driest damn wings ever!", "label": "0", "source_id": "yelp_labelled.txt:597", "domain": "yelp"}
+{"text": "Not good for the money.", "label": "0", "source_id": "yelp_labelled.txt:600", "domain": "yelp"}
+{"text": "I will not be eating there again.", "label": "0", "source_id": "yelp_labelled.txt:610", "domain": "yelp"}
+{"text": "They really want to make your experience a good one.", "label": "1", "source_id": "yelp_labelled.txt:619", "domain": "yelp"}
+{"text": "I will not return.", "label": "0", "source_id": "yelp_labelled.txt:620", "domain": "yelp"}
+{"text": "The staff is always super friendly and helpful, which is especially cool when you bring two small boys and a baby!", "label": "1", "source_id": "yelp_labelled.txt:630", "domain": "yelp"}
+{"text": "Four stars for the food & the guy in the blue shirt for his great vibe & still letting us in to eat !", "label": "1", "source_id": "yelp_labelled.txt:631", "domain": "yelp"}
+{"text": "I was proven dead wrong by this sushi bar, not only because the quality is great, but the service is fast and the food, impeccable.", "label": "1", "source_id": "yelp_labelled.txt:638", "domain": "yelp"}
+{"text": "After waiting an hour and being seated, I was not in the greatest of moods.", "label": "0", "source_id": "yelp_labelled.txt:639", "domain": "yelp"}
+{"text": "Very bad Experience!", "label": "0", "source_id": "yelp_labelled.txt:646", "domain": "yelp"}
+{"text": "Great food.", "label": "1", "source_id": "yelp_labelled.txt:649", "domain": "yelp"}
+{"text": "Hands down my favorite Italian restaurant!", "label": "1", "source_id": "yelp_labelled.txt:657", "domain": "yelp"}
+{"text": "The sweet potato tots were good but the onion rings were perfection or as close as I have had.", "label": "1", "source_id": "yelp_labelled.txt:666", "domain": "yelp"}
+{"text": "And the chef was generous with his time (even came around twice so we can take pictures with him).", "label": "1", "source_id": "yelp_labelled.txt:668", "domain": "yelp"}
+{"text": "As a sushi lover avoid this place by all means.", "label": "0", "source_id": "yelp_labelled.txt:673", "domain": "yelp"}
+{"text": "What a great double cheeseburger!", "label": "1", "source_id": "yelp_labelled.txt:674", "domain": "yelp"}
+{"text": "The steak was amazing...rge fillet relleno was the best seafood plate i have ever had!", "label": "1", "source_id": "yelp_labelled.txt:689", "domain": "yelp"}
+{"text": "It was absolutely amazing.", "label": "1", "source_id": "yelp_labelled.txt:691", "domain": "yelp"}
+{"text": "We had so much to say about the place before we walked in that he expected it to be amazing, but was quickly disappointed.", "label": "0", "source_id": "yelp_labelled.txt:697", "domain": "yelp"}
+{"text": "Service is quick and even \"to go\" orders are just like we like it!", "label": "1", "source_id": "yelp_labelled.txt:709", "domain": "yelp"}
+{"text": "They also now serve Indian naan bread with hummus and some spicy pine nut sauce that was out of this world.", "label": "1", "source_id": "yelp_labelled.txt:735", "domain": "yelp"}
+{"text": "When I opened the sandwich, I was impressed, but not in a good way.", "label": "0", "source_id": "yelp_labelled.txt:744", "domain": "yelp"}
+{"text": "Will not be back!", "label": "0", "source_id": "yelp_labelled.txt:745", "domain": "yelp"}
+{"text": "I always order from the vegetarian menu during dinner, which has a wide array of options to choose from.", "label": "1", "source_id": "yelp_labelled.txt:748", "domain": "yelp"}
+{"text": "The place was not clean and the food oh so stale!", "label": "0", "source_id": "yelp_labelled.txt:762", "domain": "yelp"}
+{"text": "It's close to my house, it's low-key, non-fancy, affordable prices, good food.", "label": "1", "source_id": "yelp_labelled.txt:769", "domain": "yelp"}
+{"text": "Great time - family dinner on a Sunday night.", "label": "1", "source_id": "yelp_labelled.txt:772", "domain": "yelp"}
+{"text": "These were so good we ordered them twice.", "label": "1", "source_id": "yelp_labelled.txt:777", "domain": "yelp"}
+{"text": "My girlfriend's veal was very bad.", "label": "0", "source_id": "yelp_labelled.txt:779", "domain": "yelp"}
+{"text": "Perfect for someone (me) who only likes beer ice cold, or in this case, even colder.", "label": "1", "source_id": "yelp_labelled.txt:783", "domain": "yelp"}
+{"text": "The nachos are a MUST HAVE!", "label": "1", "source_id": "yelp_labelled.txt:786", "domain": "yelp"}
+{"text": "The staff is super nice and very quick even with the crazy crowds of the downtown juries, lawyers, and court staff.", "label": "1", "source_id": "yelp_labelled.txt:789", "domain": "yelp"}
+{"text": "Great atmosphere, friendly and fast service.", "label": "1", "source_id": "yelp_labelled.txt:790", "domain": "yelp"}
+{"text": "So good I am going to have to review this place twice - once hereas a tribute to the place and once as a tribute to an event held here last night.", "label": "1", "source_id": "yelp_labelled.txt:796", "domain": "yelp"}
+{"text": "I could eat their bruschetta all day it is devine.", "label": "1", "source_id": "yelp_labelled.txt:807", "domain": "yelp"}
+{"text": "Not a single employee came out to see if we were OK or even needed a water refill once they finally served us our food.", "label": "0", "source_id": "yelp_labelled.txt:808", "domain": "yelp"}
+{"text": "The first time I ever came here I had an amazing experience, I still tell people how awesome the duck was.", "label": "1", "source_id": "yelp_labelled.txt:810", "domain": "yelp"}
+{"text": "Do yourself a favor and stay away from this dish.", "label": "0", "source_id": "yelp_labelled.txt:831", "domain": "yelp"}
+{"text": "I have never had such bland food which surprised me considering the article we read focused so much on their spices and flavor.", "label": "0", "source_id": "yelp_labelled.txt:838", "domain": "yelp"}
+{"text": "Food is way overpriced and portions are fucking small.", "label": "0", "source_id": "yelp_labelled.txt:839", "domain": "yelp"}
+{"text": "I ate there twice on my last visit, and especially enjoyed the salmon salad.", "label": "1", "source_id": "yelp_labelled.txt:843", "domain": "yelp"}
+{"text": "I won't be back.", "label": "0", "source_id": "yelp_labelled.txt:844", "domain": "yelp"}
+{"text": "We could not believe how dirty the oysters were!", "label": "0", "source_id": "yelp_labelled.txt:845", "domain": "yelp"}
+{"text": "I would not recommend this place.", "label": "0", "source_id": "yelp_labelled.txt:847", "domain": "yelp"}
+{"text": "the potatoes were great and so was the biscuit.", "label": "1", "source_id": "yelp_labelled.txt:851", "domain": "yelp"}
+{"text": "The Wife hated her meal (coconut shrimp), and our friends really did not enjoy their meals, either.", "label": "0", "source_id": "yelp_labelled.txt:855", "domain": "yelp"}
+{"text": "Talk about great customer service of course we will be back.", "label": "1", "source_id": "yelp_labelled.txt:862", "domain": "yelp"}
+{"text": "My boyfriend and i sat at the bar and had a completely delightful experience.", "label": "1", "source_id": "yelp_labelled.txt:874", "domain": "yelp"}
+{"text": "Weird vibe from owners.", "label": "0", "source_id": "yelp_labelled.txt:875", "domain": "yelp"}
+{"text": "I found a six inch long piece of wire in my salsa.", "label": "0", "source_id": "yelp_labelled.txt:881", "domain": "yelp"}
+{"text": "I ordered Albondigas soup - which was just warm - and tasted like tomato soup with frozen meatballs.", "label": "0", "source_id": "yelp_labelled.txt:884", "domain": "yelp"}
+{"text": "I had about two bites and refused to eat anymore.", "label": "0", "source_id": "yelp_labelled.txt:886", "domain": "yelp"}
+{"text": "The service was extremely slow.", "label": "0", "source_id": "yelp_labelled.txt:887", "domain": "yelp"}
+{"text": "No allergy warnings on the menu, and the waitress had absolutely no clue as to which meals did or did not contain peanuts.", "label": "0", "source_id": "yelp_labelled.txt:890", "domain": "yelp"}
+{"text": "My boyfriend tried the Mediterranean Chicken Salad and fell in love.", "label": "1", "source_id": "yelp_labelled.txt:891", "domain": "yelp"}
+{"text": "If you stay in Vegas you must get breakfast here at least once.", "label": "1", "source_id": "yelp_labelled.txt:895", "domain": "yelp"}
+{"text": "Their regular toasted bread was equally satisfying with the occasional pats of butter... Mmmm...!", "label": "1", "source_id": "yelp_labelled.txt:902", "domain": "yelp"}
+{"text": "Also, I feel like the chips are bought, not made in house.", "label": "0", "source_id": "yelp_labelled.txt:906", "domain": "yelp"}
+{"text": "The chips and sals a here is amazing!!!!!!!!!!!!!!!!!!!", "label": "1", "source_id": "yelp_labelled.txt:908", "domain": "yelp"}
+{"text": "This is my new fav Vegas buffet spot.", "label": "1", "source_id": "yelp_labelled.txt:910", "domain": "yelp"}
+{"text": "I'm not impressed with the concept or the food.", "label": "0", "source_id": "yelp_labelled.txt:915", "domain": "yelp"}
+{"text": "The only thing I wasn't too crazy about was their guacamole as I don't like it puréed.", "label": "0", "source_id": "yelp_labelled.txt:916", "domain": "yelp"}
+{"text": "The RI style calamari was a joke.", "label": "0", "source_id": "yelp_labelled.txt:924", "domain": "yelp"}
+{"text": "We aren't ones to make a scene at restaurants but I just don't get it...definitely lost the love after this one!", "label": "0", "source_id": "yelp_labelled.txt:929", "domain": "yelp"}
+{"text": "The food is about on par with Denny's, which is to say, not good at all.", "label": "0", "source_id": "yelp_labelled.txt:931", "domain": "yelp"}
+{"text": "WAAAAAAyyyyyyyyyy over rated is all I am saying.", "label": "0", "source_id": "yelp_labelled.txt:933", "domain": "yelp"}
+{"text": "This place lacked style!!", "label": "0", "source_id": "yelp_labelled.txt:936", "domain": "yelp"}
+{"text": "very slow at seating even with reservation.", "label": "0", "source_id": "yelp_labelled.txt:943", "domain": "yelp"}
+{"text": "It was a bit too sweet, not really spicy enough, and lacked flavor.", "label": "0", "source_id": "yelp_labelled.txt:947", "domain": "yelp"}
+{"text": "Maybe it's just their Vegetarian fare, but I've been twice and I thought it was average at best.", "label": "0", "source_id": "yelp_labelled.txt:950", "domain": "yelp"}
+{"text": "If someone orders two tacos don't' you think it may be part of customer service to ask if it is combo or ala cart?", "label": "0", "source_id": "yelp_labelled.txt:962", "domain": "yelp"}
+{"text": "Del Taco is pretty nasty and should be avoided if possible.", "label": "0", "source_id": "yelp_labelled.txt:965", "domain": "yelp"}
+{"text": "But I don't like it.", "label": "0", "source_id": "yelp_labelled.txt:967", "domain": "yelp"}
+{"text": "The ambiance isn't much better.", "label": "0", "source_id": "yelp_labelled.txt:972", "domain": "yelp"}
+{"text": "Shrimp- When I unwrapped it (I live only 1/2 a mile from Brushfire) it was literally ice cold.", "label": "0", "source_id": "yelp_labelled.txt:987", "domain": "yelp"}
+{"text": "It lacked flavor, seemed undercooked, and dry.", "label": "0", "source_id": "yelp_labelled.txt:988", "domain": "yelp"}
+{"text": "I can't tell you how disappointed I was.", "label": "0", "source_id": "yelp_labelled.txt:995", "domain": "yelp"}

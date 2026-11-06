@@ -1,0 +1,6 @@
+- id: evalcheck-code
+  name: EvalCheck evaluation-risk scan
+  entry: evalcheck-precommit
+  language: python
+  files: '\.(py|ipynb)$'
+  description: Flags supported evaluation-risk patterns; never executes inspected files

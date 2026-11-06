@@ -1,0 +1,9 @@
+{
+  "suite": "Authored Notebook Leakage Challenge v1",
+  "cases": 40,
+  "cases_sha256": "3685152d386ae807fa77789f3ac7ee0fb016f25d65fd44ee9a290cce6ff13423",
+  "engine_sha256_before_first_run": "d9d4f93f0c365cc816bda4ac44d51ec212e6275d964b0e491aaecd7a22213f6e",
+  "label_policy": "Risk-present labels include unsupported examples in overall recall. Expected rules name the authored risk, not a promise that the scanner covers it.",
+  "external_validation": false,
+  "provenance": "40 authored examples: 8 concept adaptations from primary documentation, 32 challenge examples including 4 explicit limitations. Not harvested external notebooks. Not an independent or population-representative study."
+}

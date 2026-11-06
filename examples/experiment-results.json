@@ -1,0 +1,69 @@
+{
+  "kind": "controlled_synthetic_experiment",
+  "description": "Random per-group labels; token identity enables memorization when groups overlap.",
+  "warning": "Not a real-world performance estimate or evidence that every row-random split is invalid.",
+  "model": "TF-IDF + LogisticRegression(C=10, max_iter=1000, random_state=0)",
+  "rows": 600,
+  "groups": 100,
+  "runs": [
+    {
+      "seed": 7,
+      "row_random_accuracy": 1.0,
+      "group_heldout_accuracy": 0.4,
+      "train_rows": 480,
+      "test_rows": 120,
+      "heldout_train_rows": 480,
+      "heldout_test_rows": 120,
+      "random_shared_groups": 76,
+      "heldout_shared_groups": 0
+    },
+    {
+      "seed": 19,
+      "row_random_accuracy": 1.0,
+      "group_heldout_accuracy": 0.4,
+      "train_rows": 480,
+      "test_rows": 120,
+      "heldout_train_rows": 480,
+      "heldout_test_rows": 120,
+      "random_shared_groups": 68,
+      "heldout_shared_groups": 0
+    },
+    {
+      "seed": 42,
+      "row_random_accuracy": 1.0,
+      "group_heldout_accuracy": 0.45,
+      "train_rows": 480,
+      "test_rows": 120,
+      "heldout_train_rows": 480,
+      "heldout_test_rows": 120,
+      "random_shared_groups": 71,
+      "heldout_shared_groups": 0
+    },
+    {
+      "seed": 73,
+      "row_random_accuracy": 1.0,
+      "group_heldout_accuracy": 0.45,
+      "train_rows": 480,
+      "test_rows": 120,
+      "heldout_train_rows": 480,
+      "heldout_test_rows": 120,
+      "random_shared_groups": 67,
+      "heldout_shared_groups": 0
+    },
+    {
+      "seed": 101,
+      "row_random_accuracy": 1.0,
+      "group_heldout_accuracy": 0.45,
+      "train_rows": 480,
+      "test_rows": 120,
+      "heldout_train_rows": 480,
+      "heldout_test_rows": 120,
+      "random_shared_groups": 69,
+      "heldout_shared_groups": 0
+    }
+  ],
+  "mean_row_random_accuracy": 1.0,
+  "mean_group_heldout_accuracy": 0.43,
+  "python": "3.12.14",
+  "scikit_learn": "1.8.0"
+}

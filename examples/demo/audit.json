@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.1",
+  "tool_version": "0.2.0",
+  "fingerprint": "c61fe039ee5c4c7a5298402536d1d78d4e89c1334c3e98833ce3b841caa882f9",
+  "status": "review",
+  "config": {
+    "text": "text",
+    "label": "label",
+    "group": "question_id",
+    "threshold": 0.8,
+    "max_candidates": 200000,
+    "id_column": null
+  },
+  "summary": {
+    "rows": 14,
+    "findings": 7,
+    "counts": {
+      "exact_overlap": 2,
+      "label_conflict": 1,
+      "group_overlap": 3,
+      "near_overlap": 1
+    },
+    "overlap_rows": 8,
+    "splits": {
+      "train": {
+        "rows": 8,
+        "overlap_rows": 4,
+        "overlap_fraction": 0.5,
+        "labels": {
+          "\"correct\"": 7,
+          "\"incorrect\"": 1
+        }
+      },
+      "test": {
+        "rows": 6,
+        "overlap_rows": 4,
+        "overlap_fraction": 0.6666666666666666,
+        "labels": {
+          "\"correct\"": 4,
+          "\"incorrect\"": 2
+        }
+      }
+    }
+  },
+  "coverage": {
+    "near_search_complete": true,
+    "candidates_compared": 11,
+    "candidate_budget": 200000,
+    "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+  },
+  "limitations": [
+    "No findings does not establish a leakage-free evaluation.",
+    "No semantic, temporal, feature/target, pretraining or model-selection leakage detection.",
+    "Label conflicts may be valid when identical answers have different question context.",
+    "Group overlap is meaningful only if the configured group is an isolation boundary.",
+    "Token-set similarity ignores word order, token counts and multilingual semantics."
+  ],
+  "findings": [
+    {
+      "id": "F0001",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:1",
+          "split": "train",
+          "row": 1,
+          "text": "Plants convert sunlight into chemical energy through photosynthesis.",
+          "label": "correct",
+          "group": "biology-01"
+        },
+        {
+          "id": "test:1",
+          "split": "test",
+          "row": 1,
+          "text": "  PLANTS convert sunlight into chemical energy through photosynthesis. ",
+          "label": "correct",
+          "group": "biology-01"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0002",
+      "kind": "exact_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:3",
+          "split": "train",
+          "row": 3,
+          "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+          "label": "correct",
+          "group": "chemistry-03"
+        },
+        {
+          "id": "test:3",
+          "split": "test",
+          "row": 3,
+          "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+          "label": "incorrect",
+          "group": "chemistry-03"
+        }
+      ],
+      "explanation": "The same normalized text occurs in more than one split."
+    },
+    {
+      "id": "F0003",
+      "kind": "label_conflict",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:3",
+          "split": "train",
+          "row": 3,
+          "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+          "label": "correct",
+          "group": "chemistry-03"
+        },
+        {
+          "id": "test:3",
+          "split": "test",
+          "row": 3,
+          "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+          "label": "incorrect",
+          "group": "chemistry-03"
+        }
+      ],
+      "explanation": "Identical normalized text has different labels. Review task context before changing any label."
+    },
+    {
+      "id": "F0004",
+      "kind": "group_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:1",
+          "split": "train",
+          "row": 1,
+          "text": "Plants convert sunlight into chemical energy through photosynthesis.",
+          "label": "correct",
+          "group": "biology-01"
+        },
+        {
+          "id": "test:1",
+          "split": "test",
+          "row": 1,
+          "text": "  PLANTS convert sunlight into chemical energy through photosynthesis. ",
+          "label": "correct",
+          "group": "biology-01"
+        }
+      ],
+      "explanation": "A configured isolation group occurs in multiple splits. Confirm that this group should be held out."
+    },
+    {
+      "id": "F0005",
+      "kind": "group_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:3",
+          "split": "train",
+          "row": 3,
+          "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+          "label": "correct",
+          "group": "chemistry-03"
+        },
+        {
+          "id": "test:3",
+          "split": "test",
+          "row": 3,
+          "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+          "label": "incorrect",
+          "group": "chemistry-03"
+        }
+      ],
+      "explanation": "A configured isolation group occurs in multiple splits. Confirm that this group should be held out."
+    },
+    {
+      "id": "F0006",
+      "kind": "group_overlap",
+      "severity": "error",
+      "records": [
+        {
+          "id": "train:4",
+          "split": "train",
+          "row": 4,
+          "text": "An enzyme lowers the activation energy of a reaction.",
+          "label": "correct",
+          "group": "biology-04"
+        },
+        {
+          "id": "test:4",
+          "split": "test",
+          "row": 4,
+          "text": "Enzymes make some chemical reactions proceed faster.",
+          "label": "correct",
+          "group": "biology-04"
+        }
+      ],
+      "explanation": "A configured isolation group occurs in multiple splits. Confirm that this group should be held out."
+    },
+    {
+      "id": "F0007",
+      "kind": "near_overlap",
+      "severity": "warning",
+      "records": [
+        {
+          "id": "train:2",
+          "split": "train",
+          "row": 2,
+          "text": "The electric current increases when resistance decreases at fixed voltage.",
+          "label": "correct",
+          "group": "physics-02"
+        },
+        {
+          "id": "test:2",
+          "split": "test",
+          "row": 2,
+          "text": "The electric current increases when resistance decreases at a fixed voltage.",
+          "label": "correct",
+          "group": "physics-09"
+        }
+      ],
+      "explanation": "Token-set Jaccard meets the configured threshold; similarity alone does not establish leakage.",
+      "similarity": 0.909091
+    }
+  ]
+}

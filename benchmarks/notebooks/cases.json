@@ -1,0 +1,410 @@
+[
+  {
+    "id": "ref-feature-select-all",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.feature_selection import SelectKBest\nZ=SelectKBest(k=10).fit_transform(X,y)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "supported",
+    "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-train-preprocess",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\na,b,c,d=train_test_split(X,y)\ns=StandardScaler()\ns.fit(a)\na=s.transform(a)\nb=s.transform(b)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-cv-global-features",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nZ=StandardScaler().fit_transform(X)\nscore=cross_val_score(LogisticRegression(),Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC003"
+    ],
+    "scope": "supported",
+    "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-cv-pipeline",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.pipeline import make_pipeline\nscore=cross_val_score(make_pipeline(StandardScaler(),LogisticRegression()),X,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-resample-all",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom imblearn.over_sampling import RandomOverSampler\nZ,t=RandomOverSampler().fit_resample(X,y)\na,b,c,d=train_test_split(Z,t)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC004"
+    ],
+    "scope": "supported",
+    "reference": "https://imbalanced-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-resample-train",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom imblearn.over_sampling import RandomOverSampler\na,b,c,d=train_test_split(X,y)\na,c=RandomOverSampler().fit_resample(a,c)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": "https://imbalanced-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-fit-heldout",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\na,b,c,d=train_test_split(X,y)\ns=StandardScaler()\ns.fit(b)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC002"
+    ],
+    "scope": "supported",
+    "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "ref-pipeline-heldout-predict",
+    "origin": "documentation-concept-adaptation",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.pipeline import make_pipeline\na,b,c,d=train_test_split(X,y)\nm=make_pipeline(StandardScaler(),LogisticRegression())\nm.fit(a,c)\nm.predict(b)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage"
+  },
+  {
+    "id": "pca-before-split",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.decomposition import PCA\nZ=PCA(n_components=2).fit_transform(X)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "impute-before-split",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.impute import SimpleImputer as Fill\nZ=Fill().fit_transform(X)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "functional-scale",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.preprocessing import scale\nZ=scale(X)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "copy-carries-leak",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\ns=StandardScaler()\ns.fit(X)\nZ=s.transform(X).copy()\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "heldout-keyword-fit",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\na,b,c,d=train_test_split(X,y)\nm=LogisticRegression()\nm.fit(X=b,y=d)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC002"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "heldout-partial-fit",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\na,b,c,d=train_test_split(X,y)\ns=StandardScaler()\ns.partial_fit(b)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC002"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "merged-cohort-fit",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nimport numpy as np\na,b,c,d=train_test_split(X,y)\nm=LogisticRegression()\nm.fit(np.vstack((a,b)),y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC002"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "heldout-pipeline-fit",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.pipeline import make_pipeline\na,b,c,d=train_test_split(X,y)\nm=make_pipeline(StandardScaler(),LogisticRegression())\nm.fit(b,d)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC002"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "cv-keyword-vectorizer",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nZ=TfidfVectorizer().fit_transform(texts)\nscore=cross_val_score(LogisticRegression(),X=Z,y=y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC003"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "cross-validate-selector",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.feature_selection import SelectPercentile\nfrom sklearn.model_selection import cross_validate\nZ=SelectPercentile().fit_transform(X,y)\nscore=cross_validate(LogisticRegression(),Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC003"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "random-search-prefit",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.model_selection import RandomizedSearchCV\ns=StandardScaler().fit(X)\nZ=s.transform(X)\nsearch=RandomizedSearchCV(LogisticRegression(),{})\nsearch.fit(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC003"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "cv-resampled-features",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom imblearn.over_sampling import SMOTE\nZ,t=SMOTE().fit_resample(X,y)\nscore=cross_val_score(LogisticRegression(),Z,t)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC003"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "resampler-alias",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom imblearn.over_sampling import SMOTE as Resampler\nZ,t=Resampler().fit_resample(X,y)\na,b,c,d=train_test_split(Z,t,test_size=.2)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC004"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "resampler-module",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nimport imblearn.under_sampling as under\nZ,t=under.RandomUnderSampler().fit_resample(X,y)\na,b,c,d=train_test_split(Z,t)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC004"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "resampler-reassigned",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom imblearn.over_sampling import ADASYN\nX,y=ADASYN().fit_resample(X,y)\na,b,c,d=train_test_split(X,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC004"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "resampler-instance-copy",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom imblearn.over_sampling import RandomOverSampler\nr=RandomOverSampler()\nZ,t=r.fit_resample(X,y)\nQ=Z.copy()\na,b,c,d=train_test_split(Q,t)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC004"
+    ],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-pca-train",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.decomposition import PCA\na,b,c,d=train_test_split(X,y)\np=PCA().fit(a)\nza=p.transform(a)\nzb=p.transform(b)\nm=LogisticRegression()\nm.fit(za,c)\nm.predict(zb)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-normalizer-all",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.preprocessing import Normalizer\nZ=Normalizer().fit_transform(X)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-normalizer-heldout",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.preprocessing import Normalizer\na,b,c,d=train_test_split(X,y)\nb=Normalizer().fit_transform(b)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-external-fitted-transform",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\ns=StandardScaler().fit(external_reference)\nZ=s.transform(X)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-reset-data",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nZ=StandardScaler().fit_transform(X)\nZ=load_independent_features()\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-string-comment",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\n# Z=StandardScaler().fit_transform(X)\ndescription=\"model.fit(X_test,y_test)\"\na,b,c,d=train_test_split(X,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-cv-clones-estimator",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nm=LogisticRegression()\nm.fit(X,y)\nscore=cross_val_score(m,X,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-shadowed-api",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\ndef train_test_split(*args):\n return args\nZ=StandardScaler().fit_transform(X)\na,b=train_test_split(Z,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-raw-array",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nimport numpy as np\nX=np.arange(100).reshape(50,2)\na,b,c,d=train_test_split(X,y)\nm=LogisticRegression()\nm.fit(a,c)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-no-evaluation",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nZ=StandardScaler().fit_transform(X)\nm=LogisticRegression()\nm.fit(Z,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-heldout-predict",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\na,b,c,d=train_test_split(X,y)\nm=LogisticRegression()\nm.fit(a,c)\nm.predict(b)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "safe-unrelated-transform",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nZ=StandardScaler().fit_transform(other_dataset)\na,b,c,d=train_test_split(X,y)",
+    "risk_present": false,
+    "expected_rules": [],
+    "scope": "supported",
+    "reference": null
+  },
+  {
+    "id": "limit-function-body",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\ndef build_model():\n Z=StandardScaler().fit_transform(X)\n return train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "unsupported-risk",
+    "reference": null
+  },
+  {
+    "id": "limit-branch",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nif enabled:\n Z=StandardScaler().fit_transform(X)\n a,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "unsupported-risk",
+    "reference": null
+  },
+  {
+    "id": "limit-opaque-helper",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nfrom project.preprocessing import prepare_all\nZ=prepare_all(X)\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "unsupported-risk",
+    "reference": null
+  },
+  {
+    "id": "limit-opaque-feature-wrapper",
+    "origin": "authored-challenge",
+    "source": "from sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import LogisticRegression\nZ=custom_wrapper(StandardScaler().fit_transform(X))\na,b,c,d=train_test_split(Z,y)",
+    "risk_present": true,
+    "expected_rules": [
+      "EC001"
+    ],
+    "scope": "unsupported-risk",
+    "reference": null
+  }
+]

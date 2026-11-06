@@ -1,0 +1,12 @@
+include LICENSE README.md README.ko.md CONTRIBUTING.md SECURITY.md CHANGELOG.md THIRD_PARTY_NOTICES.md requirements-experiment.txt
+recursive-include docs *.md *.svg *.json
+recursive-include examples *.py *.json *.jsonl *.html *.txt *.md
+recursive-include tests *.py *.cjs
+recursive-include src/evalcheck *.html *.js
+
+include .gitattributes .pre-commit-hooks.yaml
+recursive-include benchmarks *.py *.json *.md
+recursive-include tools *.cjs
+recursive-include web *.html *.py *.js *.json *.md
+recursive-include examples *.ipynb *.sarif
+recursive-include .github *.yml

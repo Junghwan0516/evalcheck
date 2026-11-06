@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.1",
+  "tool_version": "0.2.0",
+  "fingerprint": "e1d5c9e97a8b1a94292c70604403c84a4037ed4ddc5e5fdfb7c6d66a46a6efc2",
+  "status": "no_findings",
+  "config": {
+    "text": "text",
+    "label": "label",
+    "group": null,
+    "threshold": 0.8,
+    "max_candidates": 2000000,
+    "id_column": "source_id"
+  },
+  "summary": {
+    "rows": 3000,
+    "findings": 0,
+    "counts": {},
+    "overlap_rows": 0,
+    "splits": {
+      "train": {
+        "rows": 2400,
+        "overlap_rows": 0,
+        "overlap_fraction": 0.0,
+        "labels": {
+          "\"1\"": 1197,
+          "\"0\"": 1203
+        }
+      },
+      "test": {
+        "rows": 600,
+        "overlap_rows": 0,
+        "overlap_fraction": 0.0,
+        "labels": {
+          "\"0\"": 297,
+          "\"1\"": 303
+        }
+      }
+    }
+  },
+  "coverage": {
+    "near_search_complete": true,
+    "candidates_compared": 176383,
+    "candidate_budget": 2000000,
+    "method": "NFKC + casefold + whitespace; Unicode word token-set Jaccard"
+  },
+  "limitations": [
+    "No findings does not establish a leakage-free evaluation.",
+    "No semantic, temporal, feature/target, pretraining or model-selection leakage detection.",
+    "Label conflicts may be valid when identical answers have different question context.",
+    "Group overlap is meaningful only if the configured group is an isolation boundary.",
+    "Token-set similarity ignores word order, token counts and multilingual semantics."
+  ],
+  "findings": []
+}

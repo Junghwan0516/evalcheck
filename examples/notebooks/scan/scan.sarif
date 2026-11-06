@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "EvalCheck",
+          "semanticVersion": "0.4.0",
+          "rules": [
+            {
+              "id": "EC001",
+              "name": "Preprocessingfittedbeforeaholdoutsplit",
+              "shortDescription": {
+                "text": "Preprocessing fitted before a holdout split"
+              },
+              "helpUri": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+              "help": {
+                "text": "Split raw data first; fit preprocessing on training only and transform the held-out set."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "EC002",
+              "name": "Estimatorfittedonheldoutrecords",
+              "shortDescription": {
+                "text": "Estimator fitted on held-out records"
+              },
+              "helpUri": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+              "help": {
+                "text": "Keep validation/test records out of fit, fit_transform and fit_resample during evaluation."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "EC003",
+              "name": "Prefittedfeaturespassedtocrossvalidation",
+              "shortDescription": {
+                "text": "Prefitted features passed to cross-validation"
+              },
+              "helpUri": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+              "help": {
+                "text": "Place fitted preprocessing inside a Pipeline so each fold learns it from that fold’s training records."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "EC004",
+              "name": "Resamplingappliedbeforeaholdoutsplit",
+              "shortDescription": {
+                "text": "Resampling applied before a holdout split"
+              },
+              "helpUri": "https://imbalanced-learn.org/stable/common_pitfalls.html#data-leakage",
+              "help": {
+                "text": "Split first and resample training only, or use an imbalanced-learn Pipeline within cross-validation."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "EC001",
+          "level": "warning",
+          "message": {
+            "text": "Preprocessing fitted before a holdout split. Split raw data first; fit preprocessing on training only and transform the held-out set. Notebook cell 3, source line 1; origin cell 2, line 2."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "leaky.ipynb"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "cell": 3,
+            "cellLine": 1,
+            "origin": {
+              "cell": 2,
+              "line": 2,
+              "code": "Z = scaler.fit_transform(X)",
+              "api": "sklearn.preprocessing.StandardScaler"
+            },
+            "confidence": "direct_supported_flow"
+          },
+          "partialFingerprints": {
+            "evalcheckFlow/v1": "f534cdafe16fa19970281083d0242794693b097107456bc574baf8ffdc012aaa"
+          }
+        },
+        {
+          "ruleId": "EC002",
+          "level": "warning",
+          "message": {
+            "text": "Estimator fitted on held-out records. Keep validation/test records out of fit, fit_transform and fit_resample during evaluation. Notebook cell 3, source line 3; origin cell 3, line 3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "leaky.ipynb"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "cell": 3,
+            "cellLine": 3,
+            "origin": {
+              "cell": 3,
+              "line": 3,
+              "code": "model.fit(X_test, y_test)",
+              "api": null
+            },
+            "confidence": "direct_supported_flow"
+          },
+          "partialFingerprints": {
+            "evalcheckFlow/v1": "ad04ab8ee4ec6f54bb3ea17ed3248b4069010298ecd9d1dbbcd6938aef66ecbc"
+          }
+        }
+      ]
+    }
+  ]
+}

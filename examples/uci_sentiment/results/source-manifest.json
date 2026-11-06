@@ -1,0 +1,30 @@
+{
+  "dataset": "Sentiment Labelled Sentences",
+  "creator": "Dimitrios Kotzias",
+  "year": 2015,
+  "doi": "10.24432/C57604",
+  "landing_page": "https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences",
+  "download_url": "https://archive.ics.uci.edu/static/public/331/sentiment+labelled+sentences.zip",
+  "archive_sha256": "afc26626d710899948693e1a61405dce197f57ffa719fa1130d346b4cc095343",
+  "retrieved_on": "2026-11-06",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "files": {
+    "amazon_cells_labelled.txt": {
+      "sha256": "47003fc0a0d4840b00e96e715b6189bad09e7443a3da41c4cbe12ffc79f86ae3",
+      "bytes": 58226,
+      "records": 1000
+    },
+    "imdb_labelled.txt": {
+      "sha256": "aef2e49e3da25714d61175e3a6e68eeef74a20a2f914318dc3be9947ea86512d",
+      "bytes": 85285,
+      "records": 1000
+    },
+    "yelp_labelled.txt": {
+      "sha256": "c76468b7b5c6e56a0804d728345c5f84aa2142ddb214420f61cc9cfd4c00d2ea",
+      "bytes": 61320,
+      "records": 1000
+    }
+  },
+  "changes": "Selected three original labelled text files from the source archive, without altering their bytes. Reproduction code parses records and creates explicitly documented derived splits."
+}
