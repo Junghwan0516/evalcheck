@@ -43,8 +43,8 @@ This is scoped static analysis, not a complete leakage proof. Function bodies, c
 ## Evidence beyond a screenshot
 
 - **Observed consequence:** on ten fixed independent noise datasets, feature selection fitted before splitting yields mean test accuracy **79.5%**, versus **51.6%** with a training-only Pipeline on identical test rows. The scanner identifies that supported source pattern. This is a labelled synthetic negative control, not a real-world effect estimate or model-quality improvement. [Plan and every seed](../examples/notebooks/README.md).
-- **Frozen authored challenge:** 40 cases; 20 risks detected, 4 missed, 16 safe cases unflagged. Overall recall includes the unsupported risks. This is not independent real-world precision/recall. [All labels, misses and hashes](benchmarks/notebooks/README.md).
-- **One engine:** a WebAssembly/CPython parity check compares all 40 decisions, both notebook presets and the complete 3,000-record public-data summary. [Reproduction script](tools/check_wasm.cjs).
+- **Frozen authored challenge:** 40 cases; 20 risks detected, 4 missed, 16 safe cases unflagged. Overall recall includes the unsupported risks. This is not independent real-world precision/recall. [All labels, misses and hashes](../benchmarks/notebooks/README.md).
+- **One engine:** a WebAssembly/CPython parity check compares all 40 decisions, both notebook presets and the complete 3,000-record public-data summary. [Reproduction script](../tools/check_wasm.cjs).
 - **Adoption path:** pre-commit entry point, repository-local composite GitHub Action and HTML/JSON/SARIF exports. [Integration recipes](integrations.md). Hosted GitHub execution/upload has not been verified.
 
 ## A real-data case you can reproduce
